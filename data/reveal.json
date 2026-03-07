@@ -1,10 +1,10 @@
 {
-  "interval": [12.4, 18.9],
-  "sample_size": 47,
-  "raw_data": [12, 15, 18, 19, 14],
-  "parameter_name": "Mean age of U.S. adults",
-  "true_value": 15.8,
-  "source": "CDC NHANES 2023",
+  "interval": [-618051.4478, 15034277.1978],
+  "sample_size": 8,
+  "raw_data": [2937880, 1455271, 2961279, 4237256, 10711908, 1097379, 29145505, 5118425],
+  "parameter_name": "2014 population",
+  "true_value": 6499005.5098,
+  "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-08"
+  "day": "2026-03-07"
 }
