@@ -40,5 +40,5 @@ btnA.addEventListener("click", () => {
   // Store the guess locally for tomorrow
   localStorage.setItem("guess_" + data.day, guess);
 
-  textB.textContent = "Guess recorded";
+  textB.textContent = `Guess recorded as ${guess}`;
 });
