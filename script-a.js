@@ -1,4 +1,3 @@
-// Confirm the script is running
 console.log("script loaded");
 
 // Grab elements
@@ -7,10 +6,18 @@ const inputA = document.getElementById("input-a");
 const btnA = document.getElementById("btn-a");
 const textB = document.getElementById("text-b");
 
-// Replace the loading text
-textA.textContent = "Ready";
+// Load today's data file
+fetch("data/today.json")
+  .then(response => response.json())
+  .then(data => {
+    textA.textContent = data.prompt; // show the prompt
+  })
+  .catch(err => {
+    textA.textContent = "Error loading data";
+    console.error(err);
+  });
 
-// Add a simple button handler
+// Button handler
 btnA.addEventListener("click", () => {
   const value = inputA.value;
   textB.textContent = "You entered: " + value;
