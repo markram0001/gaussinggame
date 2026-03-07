@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write    
 
     steps:
       # 1. Check out the PUBLIC repo (gaussinggame)
@@ -29,7 +31,7 @@ jobs:
       # 4. Install R packages
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("dplyr", "jsonlite", "readr"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("dplyr", "readr", "jsonlite"), repos="https://cloud.r-project.org")'
 
       # 5. Run your R script
       - name: Run JSON generator
