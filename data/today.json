@@ -1,6 +1,7 @@
 {
-  "prompt": "Enter your estimate",
-  "true_value": 73,
-  "lower_bound": 60,
-  "upper_bound": 90
+  "interval": [12.4, 18.9],
+  "sample_size": 47,
+  "raw_data": [/* optional, maybe truncated */],
+  "prompt": "Does this interval contain the true parameter?",
+  "day": "2026-03-07"
 }
