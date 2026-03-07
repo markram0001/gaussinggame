@@ -1,7 +1,6 @@
 {
   "interval": [12.4, 18.9],
   "sample_size": 47,
-  "raw_data": [/* optional, maybe truncated */],
-  "prompt": "Does this interval contain the true parameter?",
+  "raw_data": [...],
   "day": "2026-03-07"
 }
