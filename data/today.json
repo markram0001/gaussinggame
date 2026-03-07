@@ -1,4 +1,6 @@
 {
-  "prompt": "Example prompt",
-  "value": 42
+  "prompt": "Enter your estimate",
+  "true_value": 73,
+  "lower_bound": 60,
+  "upper_bound": 90
 }
