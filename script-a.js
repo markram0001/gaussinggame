@@ -14,7 +14,12 @@ fetch("data/today.json")
     data = json;
 
     // Show the interval and sample size
-    textA.textContent = `Interval: [${json.interval[0]}, ${json.interval[1]}], n = ${json.sample_size}`;
+    textA.textContent =
+      `Interval: [${json.interval[0]}, ${json.interval[1]}], n = ${json.sample_size}`;
+
+    // Show raw data
+    document.getElementById("stat-a").textContent =
+      `Raw data: ${json.raw_data.join(", ")}`;
 
     // Change the input to yes/no
     inputA.type = "text";
