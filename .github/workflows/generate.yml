@@ -37,6 +37,12 @@ jobs:
         run: |
           Rscript scripts/generate_json.R
 
+      - name: Add date field to today.json
+        run: |
+          TODAY=$(date -u +"%Y-%m-%d")
+          jq --arg day "$TODAY" '.day = $day' data/today.json > data/today_tmp.json
+          mv data/today_tmp.json data/today.json
+
       - name: Commit and push
         run: |
           git config user.name "github-actions[bot]"
