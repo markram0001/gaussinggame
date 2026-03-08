@@ -1,9 +1,26 @@
 {
-  "interval": [-15124.8419, 350563.6419],
-  "sample_size": 5,
-  "raw_data": [252944, 137630, 44453, 27064, 376506],
-  "parameter_name": "number of women‑owned firms",
-  "true_value": 193842.1176,
+  "interval": [
+    1468260.6197,
+    10171403.2265
+  ],
+  "sample_size": 13,
+  "raw_data": [
+    5773714,
+    5893718,
+    3011524,
+    1793716,
+    29145505,
+    3605944,
+    5118425,
+    1097379,
+    4505836,
+    6154913,
+    2937880,
+    4657757,
+    1961504
+  ],
+  "parameter_name": "2014 population",
+  "true_value": 6499005.5098,
   "source": "state_demographics.csv",
   "contained": true,
   "day": "2026-03-08"
