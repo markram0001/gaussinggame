@@ -13,8 +13,32 @@ const globalStatsBox = document.getElementById("global-stats");
 const yesCountText = document.getElementById("yes-count");
 const noCountText = document.getElementById("no-count");
 
+// NEW: Your Stats elements
+const yourStatsBox = document.getElementById("your-stats");
+const yourYesText = document.getElementById("your-yes");
+const yourNoText = document.getElementById("your-no");
+
 let data = null;
 let hasGuessed = false;
+
+// ----------------------------------------------------
+// NEW: Helper function to update "Your Stats" section
+// ----------------------------------------------------
+function updateYourStats() {
+  const yesGuesses = Number(localStorage.getItem("yes_guesses") || 0);
+  const yesCorrect = Number(localStorage.getItem("yes_correct") || 0);
+
+  const noGuesses = Number(localStorage.getItem("no_guesses") || 0);
+  const noCorrect = Number(localStorage.getItem("no_correct") || 0);
+
+  yourYesText.textContent =
+    `YES guesses: ${yesGuesses} (${yesCorrect} correct)`;
+
+  yourNoText.textContent =
+    `NO guesses: ${noGuesses} (${noCorrect} correct)`;
+
+  yourStatsBox.style.display = "block";
+}
 
 // Load today's puzzle
 fetch("data/today.json")
@@ -58,7 +82,11 @@ function handleGuess(guess) {
       localStorage.setItem("no_correct", nc);
     }
   }
+
   // ----------------------------------------------------
+  // NEW: Show updated personal stats
+  // ----------------------------------------------------
+  updateYourStats();
 
   // Show correctness
   correctnessText.textContent = correct ? "Correct!" : "Incorrect";
