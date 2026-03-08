@@ -25,6 +25,16 @@ async function loadGlobalStats() {
   }
 }
 
+async function loadAllTimeStats() {
+  try {
+    const res = await fetch(`${WORKER_BASE_URL}/all-stats`);
+    return await res.json(); // { yes: X, no: Y }
+  } catch (err) {
+    console.error("Error loading all-time stats:", err);
+    return { yes: 0, no: 0 };
+  }
+}
+
 // Elements from your HTML
 const intervalText = document.getElementById("interval-text");
 const btnYes = document.getElementById("btn-yes");
@@ -35,8 +45,12 @@ const correctnessText = document.getElementById("correctness");
 const trueValueText = document.getElementById("true-value");
 
 const globalStatsBox = document.getElementById("global-stats");
-const yesCountText = document.getElementById("yes-count");
-const noCountText = document.getElementById("no-count");
+
+// NEW: Today + All-Time stats elements
+const todayYesText = document.getElementById("today-yes");
+const todayNoText = document.getElementById("today-no");
+const allYesText = document.getElementById("all-yes");
+const allNoText = document.getElementById("all-no");
 
 // Your Stats elements
 const yourStatsBox = document.getElementById("your-stats");
@@ -94,12 +108,18 @@ fetch("data/today.json")
       // Show personal stats
       updateYourStats();
 
-      // Load real global stats
+      // Load today's + all-time stats
       loadGlobalStats().then(stats => {
-        yesCountText.textContent = `Yes: ${stats.yes}`;
-        noCountText.textContent = `No: ${stats.no}`;
-        globalStatsBox.style.display = "block";
+        todayYesText.textContent = `Yes: ${stats.yes}`;
+        todayNoText.textContent = `No: ${stats.no}`;
       });
+
+      loadAllTimeStats().then(stats => {
+        allYesText.textContent = `Yes: ${stats.yes}`;
+        allNoText.textContent = `No: ${stats.no}`;
+      });
+
+      globalStatsBox.style.display = "block";
 
       // Disable buttons
       btnYes.disabled = true;
@@ -162,12 +182,18 @@ function handleGuess(guess) {
   localStorage.setItem("total_guesses", total);
   localStorage.setItem("correct_guesses", correctCount);
 
-  // Load real global stats
+  // Load today's + all-time stats
   loadGlobalStats().then(stats => {
-    yesCountText.textContent = `Yes: ${stats.yes}`;
-    noCountText.textContent = `No: ${stats.no}`;
-    globalStatsBox.style.display = "block";
+    todayYesText.textContent = `Yes: ${stats.yes}`;
+    todayNoText.textContent = `No: ${stats.no}`;
   });
+
+  loadAllTimeStats().then(stats => {
+    allYesText.textContent = `Yes: ${stats.yes}`;
+    allNoText.textContent = `No: ${stats.no}`;
+  });
+
+  globalStatsBox.style.display = "block";
 
   // Disable buttons
   btnYes.disabled = true;
