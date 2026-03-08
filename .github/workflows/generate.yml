@@ -1,48 +1,53 @@
-name: Generate Daily JSON
+name: Daily Update
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs every day at midnight UTC
-  workflow_dispatch:       # lets you run it manually
+    - cron: "0 5 * * *"   # runs every day at 5:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write    
 
     steps:
-      # 1. Check out the PUBLIC repo (gaussinggame)
-      - name: Check out public repo
+      - name: Checkout repo
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
-      # 2. Check out the PRIVATE repo (gaussinggame-data)
-      - name: Check out private data repo
+      - name: Checkout private data repo
         uses: actions/checkout@v4
         with:
           repository: markram0001/gaussinggame-data
           token: ${{ secrets.DATA_REPO_TOKEN }}
           path: datarepo
 
-      # 3. Set up R
+      - name: Rotate yesterday's puzzle → reveal.json
+        run: |
+          if [ -f data/today.json ]; then
+            cp data/today.json data/reveal.json
+          else
+            echo "No today.json found — first run?"
+          fi
+
       - name: Set up R
         uses: r-lib/actions/setup-r@v2
 
-      # 4. Install R packages
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("dplyr", "readr", "jsonlite"), repos="https://cloud.r-project.org")'
+          Rscript -e 'install.packages(c("readr","dplyr"))'
 
-      # 5. Run your R script
-      - name: Run JSON generator
+      - name: Generate new today.json
         run: |
-          Rscript scripts/generate_json.R
+          Rscript scripts/generate_today.R
 
-      # 6. Commit and push updated JSON files
       - name: Commit and push
         run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/today.json data/reveal.json
-          git commit -m "Daily JSON update" || echo "No changes to commit"
+          git commit -m "Daily update" || echo "No changes to commit"
           git push
