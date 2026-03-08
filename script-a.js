@@ -70,6 +70,21 @@ fetch("data/today.json")
       // Show personal stats
       updateYourStats();
 
+    // --------------------------------------------
+    // NEW: Restore global stats placeholder
+    // --------------------------------------------
+    yesCountText.textContent =
+    previousGuess === "yes"
+      ? "Yes: (you guessed yes)"
+      : "Yes: (global count unavailable)";
+
+    noCountText.textContent =
+      previousGuess === "no"
+        ? "No: (you guessed no)"
+        : "No: (global count unavailable)";
+
+    globalStatsBox.style.display = "block";
+
       // Disable buttons
       btnYes.disabled = true;
       btnNo.disabled = true;
