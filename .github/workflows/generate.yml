@@ -38,7 +38,7 @@ jobs:
 
       - name: Install R packages
         run: |
-          Rscript -e 'install.packages(c("readr","dplyr"))'
+          Rscript -e 'install.packages(c("readr","dplyr","jsonlite"))'
 
       - name: Generate new today.json
         run: |
