@@ -1,25 +1,25 @@
 {
   "interval": [
-    74.9902,
-    87.8265
+    -80218.1515,
+    498832.1515
   ],
   "sample_size": 12,
   "raw_data": [
-    81.9,
-    92.5,
-    93,
-    59.1,
-    83.6,
-    87,
-    86.7,
-    69.1,
-    71.9,
-    88.1,
-    79.2,
-    84.8
+    4077,
+    29983,
+    237242,
+    26127,
+    311684,
+    2354,
+    158946,
+    1619857,
+    14707,
+    60622,
+    5578,
+    40507
   ],
-  "parameter_name": "percent White",
-  "true_value": 78.0686,
+  "parameter_name": "number of minority‑owned firms",
+  "true_value": 156032.1373,
   "source": "state_demographics.csv",
   "contained": true,
   "day": "2026-03-08"
