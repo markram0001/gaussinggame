@@ -1,6 +1,10 @@
 {
-  "interval": [1548266.9007, 7653843.5608],
-  "sample_size": 13,
-  "raw_data": [8791894, 4533372, 19378102, 814180, 2915918, 2700551, 1567582, 6483802, 5686986, 1852994, 1052567, 3046355, 989415],
+  "interval": [2.1314, 3.3936],
+  "sample_size": 16,
+  "raw_data": [2, 6.3, 2.3, 2.1, 2.2, 2.9, 2.7, 2.7, 2.5, 2.9, 2.1, 2.2, 4.9, 1.8, 2, 2.6],
+  "parameter_name": "percent identifying as two or more races",
+  "true_value": 3.1137,
+  "source": "state_demographics.csv",
+  "contained": true,
   "day": "2026-03-08"
 }

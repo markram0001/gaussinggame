@@ -2,9 +2,5 @@
   "interval": [1548266.9007, 7653843.5608],
   "sample_size": 13,
   "raw_data": [8791894, 4533372, 19378102, 814180, 2915918, 2700551, 1567582, 6483802, 5686986, 1852994, 1052567, 3046355, 989415],
-  "parameter_name": "2010 population",
-  "true_value": 6053834.0784,
-  "source": "state_demographics.csv",
-  "contained": true,
   "day": "2026-03-08"
 }
