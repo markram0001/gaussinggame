@@ -42,7 +42,7 @@ jobs:
 
       - name: Generate new today.json
         run: |
-          Rscript scripts/generate_today.R
+          Rscript scripts/generate_json.R
 
       - name: Commit and push
         run: |
