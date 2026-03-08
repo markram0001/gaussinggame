@@ -36,6 +36,30 @@ function handleGuess(guess) {
   const correct = (guess === "yes" && data.contained) ||
                   (guess === "no" && !data.contained);
 
+  // ----------------------------------------------------
+  // NEW: Update YES/NO tallies and correctness tallies
+  // ----------------------------------------------------
+  if (guess === "yes") {
+    const yg = Number(localStorage.getItem("yes_guesses") || 0) + 1;
+    localStorage.setItem("yes_guesses", yg);
+
+    if (correct) {
+      const yc = Number(localStorage.getItem("yes_correct") || 0) + 1;
+      localStorage.setItem("yes_correct", yc);
+    }
+  }
+
+  if (guess === "no") {
+    const ng = Number(localStorage.getItem("no_guesses") || 0) + 1;
+    localStorage.setItem("no_guesses", ng);
+
+    if (correct) {
+      const nc = Number(localStorage.getItem("no_correct") || 0) + 1;
+      localStorage.setItem("no_correct", nc);
+    }
+  }
+  // ----------------------------------------------------
+
   // Show correctness
   correctnessText.textContent = correct ? "Correct!" : "Incorrect";
 
@@ -45,7 +69,7 @@ function handleGuess(guess) {
   // Show result box
   resultBox.style.display = "block";
 
-  // Update local score
+  // Update local score (overall)
   const total = Number(localStorage.getItem("total_guesses") || 0) + 1;
   const correctCount = Number(localStorage.getItem("correct_guesses") || 0) + (correct ? 1 : 0);
 
