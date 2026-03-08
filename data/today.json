@@ -1,31 +1,19 @@
 {
   "interval": [
-    30.3702,
-    35.4298
+    31835.7155,
+    39412.6178
   ],
-  "sample_size": 18,
+  "sample_size": 6,
   "raw_data": [
-    28.1,
-    33.4,
-    26.5,
-    34.2,
-    29.1,
-    37,
-    34,
-    30.1,
-    32,
-    33.9,
-    22,
-    34.7,
-    31.3,
-    39.7,
-    31.4,
-    39.3,
-    31.8,
-    43.7
+    39326,
+    35567,
+    36787,
+    38915,
+    29775,
+    33375
   ],
-  "parameter_name": "percent with a bachelor’s degree or higher",
-  "true_value": 31.7686,
+  "parameter_name": "per‑capita income",
+  "true_value": 33743.0588,
   "source": "state_demographics.csv",
   "contained": true,
   "day": "2026-03-08"
