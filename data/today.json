@@ -1,26 +1,9 @@
 {
-  "interval": [
-    -80218.1515,
-    498832.1515
-  ],
+  "interval": [48.2, 51.7],
   "sample_size": 12,
-  "raw_data": [
-    4077,
-    29983,
-    237242,
-    26127,
-    311684,
-    2354,
-    158946,
-    1619857,
-    14707,
-    60622,
-    5578,
-    40507
-  ],
-  "parameter_name": "number of minority‑owned firms",
-  "true_value": 156032.1373,
+  "raw_data": [49.1, 50.3, 47.8, 52.0, 48.9, 51.2, 50.1, 49.7, 52.3, 47.5, 50.8, 49.9],
+  "parameter_name": "percent female",
+  "true_value": 50.5,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-03-08"
+  "contained": true
 }
