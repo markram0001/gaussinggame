@@ -1,5 +1,30 @@
 console.log("script-a.js loaded");
 
+// === Global Stats API ===
+const WORKER_BASE_URL = "https://gaussing-global-stats.markram0001.workers.dev";
+
+async function sendGuessToGlobalStats(guess) {
+  try {
+    await fetch(`${WORKER_BASE_URL}/guess`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ guess })
+    });
+  } catch (err) {
+    console.error("Error sending guess to global stats:", err);
+  }
+}
+
+async function loadGlobalStats() {
+  try {
+    const res = await fetch(`${WORKER_BASE_URL}/stats`);
+    return await res.json(); // { yes: X, no: Y }
+  } catch (err) {
+    console.error("Error loading global stats:", err);
+    return { yes: 0, no: 0 };
+  }
+}
+
 // Elements from your HTML
 const intervalText = document.getElementById("interval-text");
 const btnYes = document.getElementById("btn-yes");
@@ -50,13 +75,12 @@ fetch("data/today.json")
       `is between ${json.interval[0]} and ${json.interval[1]} (n = ${json.sample_size}).`;
 
     // --------------------------------------------
-    // NEW: Check if user already guessed today
+    // Check if user already guessed today
     // --------------------------------------------
     const key = "guess_" + json.day;
     const previousGuess = localStorage.getItem(key);
 
     if (previousGuess !== null) {
-      // User already guessed today
       hasGuessed = true;
 
       const wasCorrect = (previousGuess === "yes" && json.contained) ||
@@ -70,20 +94,12 @@ fetch("data/today.json")
       // Show personal stats
       updateYourStats();
 
-    // --------------------------------------------
-    // NEW: Restore global stats placeholder
-    // --------------------------------------------
-    yesCountText.textContent =
-    previousGuess === "yes"
-      ? "Yes: (you guessed yes)"
-      : "Yes: (global count unavailable)";
-
-    noCountText.textContent =
-      previousGuess === "no"
-        ? "No: (you guessed no)"
-        : "No: (global count unavailable)";
-
-    globalStatsBox.style.display = "block";
+      // Load real global stats
+      loadGlobalStats().then(stats => {
+        yesCountText.textContent = `Yes: ${stats.yes}`;
+        noCountText.textContent = `No: ${stats.no}`;
+        globalStatsBox.style.display = "block";
+      });
 
       // Disable buttons
       btnYes.disabled = true;
@@ -95,6 +111,9 @@ fetch("data/today.json")
 function handleGuess(guess) {
   if (!data || hasGuessed) return;
   hasGuessed = true;
+
+  // Send guess to global stats backend
+  sendGuessToGlobalStats(guess);
 
   const correct = (guess === "yes" && data.contained) ||
                   (guess === "no" && !data.contained);
@@ -143,10 +162,12 @@ function handleGuess(guess) {
   localStorage.setItem("total_guesses", total);
   localStorage.setItem("correct_guesses", correctCount);
 
-  // Placeholder global stats
-  yesCountText.textContent = "Yes: (global count unavailable)";
-  noCountText.textContent = "No: (global count unavailable)";
-  globalStatsBox.style.display = "block";
+  // Load real global stats
+  loadGlobalStats().then(stats => {
+    yesCountText.textContent = `Yes: ${stats.yes}`;
+    noCountText.textContent = `No: ${stats.no}`;
+    globalStatsBox.style.display = "block";
+  });
 
   // Disable buttons
   btnYes.disabled = true;
