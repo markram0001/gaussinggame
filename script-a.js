@@ -1,44 +1,67 @@
-console.log("script loaded");
+console.log("script-a.js loaded");
 
-const textA = document.getElementById("text-a");
-const btnA = document.getElementById("btn-a");
-const inputA = document.getElementById("input-a");
-const textB = document.getElementById("text-b");
+// Elements from your HTML
+const intervalText = document.getElementById("interval-text");
+const btnYes = document.getElementById("btn-yes");
+const btnNo = document.getElementById("btn-no");
+
+const resultBox = document.getElementById("result");
+const correctnessText = document.getElementById("correctness");
+const trueValueText = document.getElementById("true-value");
+
+const globalStatsBox = document.getElementById("global-stats");
+const yesCountText = document.getElementById("yes-count");
+const noCountText = document.getElementById("no-count");
 
 let data = null;
+let hasGuessed = false;
 
-// Load today's data file
+// Load today's puzzle
 fetch("data/today.json")
   .then(r => r.json())
   .then(json => {
     data = json;
 
-    // Show the interval and sample size
-    textA.textContent =
-      `Interval: [${json.interval[0]}, ${json.interval[1]}], n = ${json.sample_size}`;
-
-    // Show raw data
-    document.getElementById("stat-a").textContent =
-      `Raw data: ${json.raw_data.join(", ")}`;
-
-    // Change the input to yes/no
-    inputA.type = "text";
-    inputA.placeholder = "yes or no";
+    // Build the Option A sentence
+    intervalText.textContent =
+      `Using a 95% confidence interval, we claim that ${json.parameter_name} ` +
+      `is between ${json.interval[0]} and ${json.interval[1]} (n = ${json.sample_size}).`;
   });
 
-// Handle guess
-btnA.addEventListener("click", () => {
-  if (!data) return;
+// Handle a guess
+function handleGuess(guess) {
+  if (!data || hasGuessed) return;
+  hasGuessed = true;
 
-  const guess = inputA.value.trim().toLowerCase();
+  const correct = (guess === "yes" && data.contained) ||
+                  (guess === "no" && !data.contained);
 
-  if (guess !== "yes" && guess !== "no") {
-    textB.textContent = "Please enter yes or no";
-    return;
-  }
+  // Show correctness
+  correctnessText.textContent = correct ? "Correct!" : "Incorrect";
 
-  // Store the guess locally for tomorrow
-  localStorage.setItem("guess_" + data.day, guess);
+  // Reveal true value
+  trueValueText.textContent = `The true value is ${data.true_value}.`;
 
-  textB.textContent = `Guess recorded as ${guess}`;
-});
+  // Show result box
+  resultBox.style.display = "block";
+
+  // Update local score
+  const total = Number(localStorage.getItem("total_guesses") || 0) + 1;
+  const correctCount = Number(localStorage.getItem("correct_guesses") || 0) + (correct ? 1 : 0);
+
+  localStorage.setItem("total_guesses", total);
+  localStorage.setItem("correct_guesses", correctCount);
+
+  // Placeholder global stats (until backend is chosen)
+  yesCountText.textContent = "Yes: (global count unavailable)";
+  noCountText.textContent = "No: (global count unavailable)";
+  globalStatsBox.style.display = "block";
+
+  // Disable buttons
+  btnYes.disabled = true;
+  btnNo.disabled = true;
+}
+
+// Button events
+btnYes.addEventListener("click", () => handleGuess("yes"));
+btnNo.addEventListener("click", () => handleGuess("no"));
