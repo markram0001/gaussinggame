@@ -1,9 +1,9 @@
 {
-  "interval": [6.8503, 17.8831],
-  "sample_size": 18,
-  "raw_data": [9.9, 29.2, 12.8, 3.4, 11.1, 16.9, 7.3, 3.9, 9.8, 9.8, 16.3, 49.3, 5.7, 4.4, 7.3, 4, 11.4, 10.1],
-  "parameter_name": "percent Hispanic or Latino",
-  "true_value": 12.2471,
+  "interval": [-15124.8419, 350563.6419],
+  "sample_size": 5,
+  "raw_data": [252944, 137630, 44453, 27064, 376506],
+  "parameter_name": "number of women‑owned firms",
+  "true_value": 193842.1176,
   "source": "state_demographics.csv",
   "contained": true,
   "day": "2026-03-08"
