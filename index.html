@@ -2,34 +2,37 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Game</title>
+    <title>The Gaussing Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
-    <h1>Game</h1>
+    <h1>The Gaussing Game</h1>
 
-    <div id="box-a">
-      <p id="text-a">Loading…</p>
-
-      <input id="input-a" type="number" placeholder="Enter value" />
-      <button id="btn-a">Go</button>
-
-      <p id="text-b"></p>
+    <!-- Daily prompt -->
+    <div id="prompt">
+      <p id="interval-text">Loading today’s puzzle…</p>
     </div>
 
-    <div id="box-b">
-      <h2>Stats</h2>
-      <p id="stat-a"></p>
-      <p id="stat-b"></p>
+    <!-- Guess buttons -->
+    <div id="guess-box">
+      <button id="btn-yes">Yes</button>
+      <button id="btn-no">No</button>
     </div>
 
-    <div id="box-c">
-      <h2>Board</h2>
-      <ol id="list-a"></ol>
+    <!-- Result after guessing -->
+    <div id="result" style="display:none;">
+      <p id="correctness"></p>
+      <p id="true-value"></p>
     </div>
 
-    <p><a href="reveal.html">See yesterday's reveal</a></p>
-    <script src="script-a.js"></script>
+    <!-- Global stats -->
+    <div id="global-stats" style="display:none;">
+      <h2>How others guessed</h2>
+      <p id="yes-count"></p>
+      <p id="no-count"></p>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
