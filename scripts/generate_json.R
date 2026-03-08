@@ -93,13 +93,14 @@ contained <- true_value >= ci[1] && true_value <= ci[2]
 # 7. Build today.json (single source of truth)
 today <- list(
   interval = ci,
-  sample_size = n,
+  sample_size = paste0(n," states"),
   raw_data = unname(sample_data),
-  parameter_name = selected_var,
+  parameter_name = paste0(selected_var," in the U.S."),
   true_value = true_value,
   source = "state_demographics.csv",
   contained = contained
 )
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
+
 
