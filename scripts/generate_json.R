@@ -2,7 +2,7 @@ library(dplyr)
 library(readr)
 library(jsonlite)
 
-df <- read_csv("datarepo/state_demographics.csv", show_col_types = FALSE)|>
+df <- read_csv("datarepo/state_demographics.csv", show_col_types = FALSE) |>
   mutate(across(-State, ~ suppressWarnings(as.numeric(.))))
 
 nice_labels <- c(
@@ -68,39 +68,30 @@ nice_labels <- c(
   "Miscellaneous.Land Area" = "land area"
 )
 
-# Create a lookup table from your named vector
 colnames(df) <- nice_labels
 
-# --- 1. Choose a random numeric variable ---
+# 1. Choose a random numeric variable
 numeric_cols <- names(df)[sapply(df, is.numeric)]
 selected_var <- sample(numeric_cols, 1)
 
-# --- 2. Random sample size ---
+# 2. Random sample size
 n <- sample(5:20, 1)
 
-# --- 3. Draw sample WITHOUT replacement ---
+# 3. Draw sample WITHOUT replacement
 sample_data <- sample(df[[selected_var]], n, replace = FALSE)
 
-# --- 4. Compute 95% CI using t.test ---
+# 4. Compute 95% CI
 tt <- t.test(sample_data, conf.level = 0.95)
 ci <- unname(tt$conf.int)
 
-# --- 5. Compute true parameter ---
+# 5. True parameter
 true_value <- mean(df[[selected_var]], na.rm = TRUE)
 
-# --- 6. Check containment ---
+# 6. Containment
 contained <- true_value >= ci[1] && true_value <= ci[2]
 
-# --- 7. Build today.json ---
+# 7. Build today.json (single source of truth)
 today <- list(
-  interval = ci,
-  sample_size = n,
-  raw_data = unname(sample_data),
-  day = as.character(Sys.Date())
-)
-
-# --- 8. Build reveal.json ---
-reveal <- list(
   interval = ci,
   sample_size = n,
   raw_data = unname(sample_data),
@@ -111,6 +102,4 @@ reveal <- list(
   day = as.character(Sys.Date())
 )
 
-# --- 9. Write JSON files ---
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
-write_json(reveal, "data/reveal.json", pretty = TRUE, auto_unbox = TRUE)
