@@ -98,8 +98,8 @@ today <- list(
   parameter_name = selected_var,
   true_value = true_value,
   source = "state_demographics.csv",
-  contained = contained,
-  day = as.character(Sys.Date())
+  contained = contained
 )
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
+
