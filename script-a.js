@@ -13,7 +13,7 @@ const globalStatsBox = document.getElementById("global-stats");
 const yesCountText = document.getElementById("yes-count");
 const noCountText = document.getElementById("no-count");
 
-// NEW: Your Stats elements
+// Your Stats elements
 const yourStatsBox = document.getElementById("your-stats");
 const yourYesText = document.getElementById("your-yes");
 const yourNoText = document.getElementById("your-no");
@@ -21,9 +21,7 @@ const yourNoText = document.getElementById("your-no");
 let data = null;
 let hasGuessed = false;
 
-// ----------------------------------------------------
-// NEW: Helper function to update "Your Stats" section
-// ----------------------------------------------------
+// Helper: update Your Stats
 function updateYourStats() {
   const yesGuesses = Number(localStorage.getItem("yes_guesses") || 0);
   const yesCorrect = Number(localStorage.getItem("yes_correct") || 0);
@@ -50,6 +48,32 @@ fetch("data/today.json")
     intervalText.textContent =
       `Using a 95% confidence interval, we claim that ${json.parameter_name} ` +
       `is between ${json.interval[0]} and ${json.interval[1]} (n = ${json.sample_size}).`;
+
+    // --------------------------------------------
+    // NEW: Check if user already guessed today
+    // --------------------------------------------
+    const key = "guess_" + json.day;
+    const previousGuess = localStorage.getItem(key);
+
+    if (previousGuess !== null) {
+      // User already guessed today
+      hasGuessed = true;
+
+      const wasCorrect = (previousGuess === "yes" && json.contained) ||
+                         (previousGuess === "no" && !json.contained);
+
+      correctnessText.textContent = wasCorrect ? "Correct!" : "Incorrect";
+      trueValueText.textContent = `The true value is ${json.true_value}.`;
+
+      resultBox.style.display = "block";
+
+      // Show personal stats
+      updateYourStats();
+
+      // Disable buttons
+      btnYes.disabled = true;
+      btnNo.disabled = true;
+    }
   });
 
 // Handle a guess
@@ -60,9 +84,11 @@ function handleGuess(guess) {
   const correct = (guess === "yes" && data.contained) ||
                   (guess === "no" && !data.contained);
 
-  // ----------------------------------------------------
-  // NEW: Update YES/NO tallies and correctness tallies
-  // ----------------------------------------------------
+  // Save today's guess so refresh doesn't allow another
+  const key = "guess_" + data.day;
+  localStorage.setItem(key, guess);
+
+  // Update YES/NO tallies
   if (guess === "yes") {
     const yg = Number(localStorage.getItem("yes_guesses") || 0) + 1;
     localStorage.setItem("yes_guesses", yg);
@@ -83,9 +109,7 @@ function handleGuess(guess) {
     }
   }
 
-  // ----------------------------------------------------
-  // NEW: Show updated personal stats
-  // ----------------------------------------------------
+  // Show updated personal stats
   updateYourStats();
 
   // Show correctness
@@ -104,7 +128,7 @@ function handleGuess(guess) {
   localStorage.setItem("total_guesses", total);
   localStorage.setItem("correct_guesses", correctCount);
 
-  // Placeholder global stats (until backend is chosen)
+  // Placeholder global stats
   yesCountText.textContent = "Yes: (global count unavailable)";
   noCountText.textContent = "No: (global count unavailable)";
   globalStatsBox.style.display = "block";
