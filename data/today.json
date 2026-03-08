@@ -1,30 +1,28 @@
 {
   "interval": [
-    20.8309,
-    22.9816
+    128402.4751,
+    419025.2392
   ],
-  "sample_size": "16 states",
+  "sample_size": "14 states",
   "raw_data": [
-    23,
-    19.6,
-    20.6,
-    23.6,
-    21.8,
-    18.3,
-    22.5,
-    24.6,
-    21.2,
-    24.1,
-    22.1,
-    25.1,
-    20.5,
-    23.3,
-    21.4,
-    18.8
+    231959,
+    805985,
+    489494,
+    139570,
+    94642,
+    68270,
+    339305,
+    792088,
+    151363,
+    118454,
+    235454,
+    75827,
+    227156,
+    62427
   ],
-  "parameter_name": "percent of residents under age 18 in the U.S.",
-  "true_value": 22.1392,
+  "parameter_name": "total number of firms across states in the U.S.",
+  "true_value": 545254.902,
   "source": "state_demographics.csv",
-  "contained": true,
+  "contained": false,
   "day": "2026-03-08"
 }
