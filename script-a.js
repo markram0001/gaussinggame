@@ -37,6 +37,7 @@ async function loadAllTimeStats() {
 
 // Elements from your HTML
 const intervalText = document.getElementById("interval-text");
+const rawDataText = document.getElementById("raw-data");
 const btnYes = document.getElementById("btn-yes");
 const btnNo = document.getElementById("btn-no");
 
@@ -87,6 +88,7 @@ fetch("data/today.json")
     intervalText.textContent =
       `Using a 95% confidence interval, we claim that ${json.parameter_name} ` +
       `is between ${json.interval[0]} and ${json.interval[1]} (n = ${json.sample_size}).`;
+    rawDataText.textContent = `Raw data: ${json.raw_data.join(", ")}`;
 
     // --------------------------------------------
     // Check if user already guessed today
