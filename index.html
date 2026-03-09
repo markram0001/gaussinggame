@@ -4,63 +4,172 @@
     <meta charset="UTF-8" />
     <title>The Gaussing Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        background: #f7f7f7;
+        margin: 0;
+        padding: 0;
+      }
+
+      .page-container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .card {
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+      }
+
+      .two-pane {
+        display: flex;
+        gap: 20px;
+        margin-bottom: 20px;
+      }
+
+      .left-pane {
+        flex: 2;
+      }
+
+      .right-pane {
+        flex: 1;
+        text-align: center;
+      }
+
+      .side-image, .about-image {
+        max-width: 100%;
+        border-radius: 6px;
+        margin-top: 10px;
+      }
+
+      #guess-box {
+        margin-top: 10px;
+      }
+
+      #guess-box button {
+        padding: 10px 20px;
+        margin-right: 10px;
+        font-size: 1rem;
+      }
+
+      @media (max-width: 700px) {
+        .two-pane {
+          flex-direction: column;
+        }
+      }
+    </style>
   </head>
 
   <body>
-    <h1>The Gaussing Game</h1>
+    <div class="page-container">
 
-    <div id="intro">
-    <p>
-    The confidence interval is one of the simplest and most useful tools in statistics.
-    Every day, Fred thinks about a new unknown number he wants to estimate. He takes a
-    random sample relevant to that number and computes a 95% confidence interval for it.
-    </p>
+      <h1>The Gaussing Game</h1>
 
-    <p>
-    Given only the information provided by the data, Fred will always choose that the
-    parameter is in the interval. Fred can never know whether he is exactly right or
-    wrong each time he makes this decision, but now you can! Is Fred right today? Make a choice and find out.
-    </p>
+      <!-- Intro Section -->
+      <section id="intro" class="card">
+        <p>
+          The confidence interval is one of the simplest and most useful tools in statistics.
+          Every day, Fred thinks about a new unknown number he wants to estimate. He takes a
+          random sample relevant to that number and computes a 95% confidence interval for it.
+        </p>
 
-    <p id="fred-stats"></p>
-  </div>
+        <p>
+          Given only the information provided by the data, Fred will always choose that the
+          parameter is in the interval. Fred can never know whether he is exactly right or
+          wrong each time he makes this decision, but now you can! Is Fred right today?
+          Make a choice and find out.
+        </p>
 
-    <!-- Daily prompt -->
-    <div id="prompt">
-      <p id="interval-text">Loading today’s puzzle…</p>
-      <p id="raw-data"></p>
-    </div>
+        <p id="fred-stats"></p>
+      </section>
 
-    <!-- Guess buttons -->
-    <div id="guess-box">
-      <button id="btn-yes">Yes</button>
-      <button id="btn-no">No</button>
-    </div>
+      <!-- Two-Pane Layout: Game + Image -->
+      <div class="two-pane">
 
-    <!-- Result after guessing -->
-    <div id="result" style="display:none;">
-      <p id="correctness"></p>
-      <p id="true-value"></p>
-    </div>
+        <!-- LEFT PANE: Game UI -->
+        <div class="left-pane card">
 
-    <!-- Global stats -->
-    <div id="global-stats" style="display:none;">
-    <h2>How others guessed</h2>
+          <!-- Daily prompt -->
+          <div id="prompt">
+            <p id="interval-text">Loading today’s puzzle…</p>
+            <p id="raw-data"></p>
+          </div>
 
-    <h3>Today’s Global Stats</h3>
-    <p id="today-yes"></p>
-    <p id="today-no"></p>
+          <!-- Guess buttons -->
+          <div id="guess-box">
+            <button id="btn-yes">Yes</button>
+            <button id="btn-no">No</button>
+          </div>
 
-    <h3>All‑Time Stats</h3>
-    <p id="all-yes"></p>
-    <p id="all-no"></p>
-    </div>
+          <!-- Result -->
+          <div id="result" style="display:none;">
+            <p id="correctness"></p>
+            <p id="true-value"></p>
+          </div>
 
-    <!-- Your Stats -->
-    <div id="your-stats" style="display:none;">
-      <h2>Your Stats</h2>
-      <p id="your-yes"></p>
-      <p id="your-no"></p>
+          <!-- Global stats -->
+          <div id="global-stats" style="display:none;">
+            <h2>How others guessed</h2>
+
+            <h3>Today’s Global Stats</h3>
+            <p id="today-yes"></p>
+            <p id="today-no"></p>
+
+            <h3>All‑Time Stats</h3>
+            <p id="all-yes"></p>
+            <p id="all-no"></p>
+          </div>
+
+          <!-- Your Stats -->
+          <div id="your-stats" style="display:none;">
+            <h2>Your Stats</h2>
+            <p id="your-yes"></p>
+            <p id="your-no"></p>
+          </div>
+
+        </div>
+
+        <!-- RIGHT PANE: Placeholder for image -->
+        <div class="right-pane card">
+          <h3>Confidence Interval Illustration</h3>
+          <img src="images/placeholder-ci.png" alt="CI illustration" class="side-image">
+          <p>A 95% confidence interval captures the true value most of the time.</p>
+        </div>
+
+      </div>
+
+      <!-- About Confidence Intervals -->
+      <section id="about-ci" class="card">
+        <h2>About Confidence Intervals</h2>
+        <p>
+          (Add your explanation here. You can include diagrams, examples, or a visual
+          demonstration of how confidence intervals behave across repeated samples.)
+        </p>
+
+        <img src="images/about-ci.png" alt="About CI" class="about-image">
+      </section>
+
+      <!-- Useful Links -->
+      <section id="links" class="card">
+        <h2>Learn More</h2>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/Confidence_interval">Confidence Intervals (Wikipedia)</a></li>
+          <li><a href="https://seeing-theory.brown.edu/frequentist-inference/index.html">Seeing Theory: Frequentist Inference</a></li>
+          <li><a href="https://www.openintro.org/book/os/">OpenIntro Statistics</a></li>
+        </ul>
+      </section>
+
     </div>
 
     <script src="script-a.js"></script>
