@@ -151,13 +151,30 @@
 
       <!-- About Confidence Intervals -->
       <section id="about-ci" class="card">
-        <h2>About Confidence Intervals</h2>
-        <p>
-          (Add your explanation here. You can include diagrams, examples, or a visual
-          demonstration of how confidence intervals behave across repeated samples.)
-        </p>
+      <h2>About Confidence Intervals</h2>
 
-        <img src="images/about-ci.png" alt="About CI" class="about-image">
+      <p>
+      Before creating your 95% confidence interval, you have a 95% chance
+      (i.e., probability = 0.95) to sample data that computes to an interval
+      which contains the unknown parameter. After you have selected your sample
+      and computed the interval, that language of probability no longer makes
+      sense to use for the actual interval since this interval is already fixed
+      instead of random (the intervals that the method has yet to produce are
+      what are considered random). That is, it is incorrect to say that there is
+      a 0.95 probability that the parameter is in the interval. However, by
+      virtue of knowing that the method was executed correctly, it is reasonable
+      to act as though the parameter is in the interval instead of outside it.
+      That’s why we call it a “confidence” interval.
+      </p>
+
+      <p>
+      Why do we make a big deal about not calling it probability after the fact?
+      It helps prevent incorrect usage of confidence intervals. For example,
+      recomputing a 99% confidence interval after seeing the result from a 95%
+      interval and then reporting the latter interval as though it was the one
+      you had planned for in the first place is incorrect (and quite dishonest).
+      </p>
+      <img src="images/about-ci.png" alt="About CI" class="about-image">
       </section>
 
       <!-- Useful Links -->
