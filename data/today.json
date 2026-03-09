@@ -1,23 +1,28 @@
 {
   "interval": [
-    126325.5851,
-    327518.8593
+    78.753,
+    84.1898
   ],
-  "sample_size": "9 states",
+  "sample_size": "14 states",
   "raw_data": [
-    142700,
-    141700,
-    505000,
-    225500,
-    127800,
-    381600,
-    154900,
-    215300,
-    147800
+    82.7,
+    84.8,
+    80.7,
+    85.5,
+    80.7,
+    80.7,
+    84,
+    86.4,
+    74.6,
+    71.5,
+    75.5,
+    81.8,
+    87.6,
+    84.1
   ],
-  "parameter_name": "average median home value per state in the U.S.",
-  "true_value": 233176.4706,
+  "parameter_name": "average percent of households with internet access per state in the U.S.",
+  "true_value": 82.0451,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-08"
+  "day": "2026-03-09"
 }
