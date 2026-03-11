@@ -21,14 +21,14 @@ nice_labels <- c(
   
   "Miscellaneous.Percent Female" = "percent female",
   
-  "Ethnicities.White Alone" = "percent White",
-  "Ethnicities.Black Alone" = "percent Black",
-  "Ethnicities.American Indian and Alaska Native Alone" = "percent American Indian or Alaska Native",
-  "Ethnicities.Asian Alone" = "percent Asian",
-  "Ethnicities.Native Hawaiian and Other Pacific Islander Alone" = "percent Native Hawaiian or Pacific Islander",
+  "Ethnicities.White Alone" = "percent who identify as White",
+  "Ethnicities.Black Alone" = "percent who identify as Black",
+  "Ethnicities.American Indian and Alaska Native Alone" = "percent who identify as American Indian or Alaska Native",
+  "Ethnicities.Asian Alone" = "percent who identify as Asian",
+  "Ethnicities.Native Hawaiian and Other Pacific Islander Alone" = "percent who identify as Native Hawaiian or Pacific Islander",
   "Ethnicities.Two or More Races" = "percent identifying as two or more races",
-  "Ethnicities.Hispanic or Latino" = "percent Hispanic or Latino",
-  "Ethnicities.White Alone, not Hispanic or Latino" = "percent White (non‑Hispanic)",
+  "Ethnicities.Hispanic or Latino" = "percent who identify as Hispanic or Latino",
+  "Ethnicities.White Alone, not Hispanic or Latino" = "percent who identify as White (non‑Hispanic)",
   
   "Miscellaneous.Veterans" = "number of veterans",
   "Miscellaneous.Foreign Born" = "percent foreign‑born",
@@ -108,6 +108,7 @@ today <- list(
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
 }
+
 
 
 
