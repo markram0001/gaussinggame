@@ -86,7 +86,7 @@ fetch("data/today.json")
 
     // Build the Option A sentence
     intervalText.textContent =
-      `Today's Claim: Using a 95% confidence interval, Fred claims that the ${json.parameter_name} ` +
+      `Today's Claim: Using a 95% confidence interval computed from ${json.sample_size}, Fred claims that the ${json.parameter_name} ` +
       `is between ${json.interval[0]} and ${json.interval[1]} (n = ${json.sample_size}).`;
     rawDataText.textContent = `Raw data: ${json.raw_data.join(", ")}`;
 
