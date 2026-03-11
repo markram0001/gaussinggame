@@ -1,32 +1,28 @@
 {
   "interval": [
-    60.876,
-    68.024
+    88.4985,
+    90.9158
   ],
-  "sample_size": "18 states",
+  "sample_size": "14 states",
   "raw_data": [
-    63.9,
-    65.2,
-    71.1,
-    56.3,
-    71.2,
-    66.3,
-    64.4,
-    65.2,
-    58.9,
-    67.7,
-    73.2,
-    41.6,
-    68.2,
-    71.1,
-    65.6,
-    66.1,
-    60.8,
-    63.3
+    85.6,
+    90.8,
+    88,
+    90.9,
+    90.4,
+    89.7,
+    92.1,
+    88.2,
+    92.8,
+    90.6,
+    89.9,
+    92,
+    87.8,
+    87.1
   ],
-  "parameter_name": "average homeownership rate per state in the U.S.",
-  "true_value": 65.6725,
+  "parameter_name": "average percent with a high school diploma or higher per state in the U.S.",
+  "true_value": 89.5353,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-10"
+  "day": "2026-03-11"
 }
