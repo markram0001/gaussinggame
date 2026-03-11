@@ -2,6 +2,11 @@ library(dplyr)
 library(readr)
 library(jsonlite)
 
+choice<-runif(1)
+
+if(choice>0.00000001){
+source("scripts/ESS.R")  
+}else{
 df <- read_csv("datarepo/state_demographics.csv", show_col_types = FALSE) |>
   mutate(across(-State, ~ suppressWarnings(as.numeric(.))))
 
@@ -102,6 +107,7 @@ today <- list(
 )
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
+}
 
 
 
