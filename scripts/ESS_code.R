@@ -30,15 +30,16 @@ contained <- true_value >= ci[1] && true_value <= ci[2]
 # 7. Build today.json (single source of truth)
 today <- list(
   interval = ci,
-  sample_size = paste0(n," people"),
+  sample_size = paste0(n," respondents"),
   raw_data = unname(sample_data),
-  parameter_name = paste0("average ", codebook_var," of ",pop_n," respondents who took the European Social Survey in 2022"),
+  parameter_name = paste0("average ", codebook_var," of ",pop_n," people who took the European Social Survey in 2022"),
   true_value = true_value,
   source = "ESS.csv",
   contained = contained
 )
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
+
 
 
 
