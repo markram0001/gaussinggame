@@ -1,28 +1,31 @@
 {
   "interval": [
-    88.4985,
-    90.9158
+    1.1095,
+    2.8905
   ],
-  "sample_size": "14 states",
+  "sample_size": "17 people",
   "raw_data": [
-    85.6,
-    90.8,
-    88,
-    90.9,
-    90.4,
-    89.7,
-    92.1,
-    88.2,
-    92.8,
-    90.6,
-    89.9,
-    92,
-    87.8,
-    87.1
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    5,
+    1,
+    5,
+    3,
+    3,
+    1,
+    1,
+    6,
+    1,
+    1
   ],
-  "parameter_name": "average percent with a high school diploma or higher per state in the U.S.",
-  "true_value": 89.5353,
-  "source": "state_demographics.csv",
+  "parameter_name": "average hours per week spent helping or caring for others of 13866 who took the European Social Survey in 2022",
+  "true_value": 1.6998,
+  "source": "ESS.csv",
   "contained": true,
   "day": "2026-03-11"
 }
