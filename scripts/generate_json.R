@@ -35,7 +35,7 @@ nice_labels <- c(
   
   "Housing.Housing Units" = "number of housing units",
   "Housing.Homeownership Rate" = "homeownership rate",
-  "Housing.Median Value of Owner-Occupied Units" = "median home value",
+  "Housing.Median Value of Owner-Occupied Units" = "median home value in USD",
   "Housing.Households" = "number of households",
   "Housing.Persons per Household" = "persons per household",
   
@@ -51,13 +51,13 @@ nice_labels <- c(
   "Miscellaneous.Percent Under 66 Years With a Disability" = "percent under age 66 with a disability",
   "Miscellaneous.Percent Under 65 Years Witout Health insurance" = "percent under age 65 without health insurance",
   
-  "Sales.Accommodation and Food Services Sales" = "accommodation and food services sales",
+  "Sales.Accommodation and Food Services Sales" = "accommodation and food services sales in USD",
   "Miscellaneous.Manufacturers Shipments" = "manufacturers’ shipments",
   "Sales.Retail Sales" = "retail sales",
   
-  "Miscellaneous.Mean Travel Time to Work" = "mean travel time to work",
-  "Income.Median Houseold Income" = "median household income",
-  "Income.Per Capita Income" = "per‑capita income",
+  "Miscellaneous.Mean Travel Time to Work" = "mean travel time to work in minutes",
+  "Income.Median Houseold Income" = "median household income in USD",
+  "Income.Per Capita Income" = "per‑capita income in USD",
   "Income.Persons Below Poverty Level" = "percent of persons below the poverty level",
   
   "Employment.Nonemployer Establishments" = "number of nonemployer establishments",
@@ -108,6 +108,7 @@ today <- list(
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
 }
+
 
 
 
