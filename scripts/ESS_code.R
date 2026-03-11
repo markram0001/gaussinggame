@@ -32,13 +32,14 @@ today <- list(
   interval = ci,
   sample_size = paste0(n," people"),
   raw_data = unname(sample_data),
-  parameter_name = paste0("average ", codebook_var," of ",pop_n," who took the European Social Survey in 2022"),
+  parameter_name = paste0("average ", codebook_var," of ",pop_n," respondents who took the European Social Survey in 2022"),
   true_value = true_value,
   source = "ESS.csv",
   contained = contained
 )
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
+
 
 
 
