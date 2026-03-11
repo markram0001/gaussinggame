@@ -4,7 +4,7 @@ library(jsonlite)
 
 choice<-runif(1)
 
-if(choice<0.00000001){
+if(choice<0.18){
 source("scripts/ESS_code.R")  
 }else{
 df <- read_csv("datarepo/state_demographics.csv", show_col_types = FALSE) |>
@@ -108,6 +108,7 @@ today <- list(
 
 write_json(today, "data/today.json", pretty = TRUE, auto_unbox = TRUE)
 }
+
 
 
 
