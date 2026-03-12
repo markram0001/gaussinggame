@@ -1,31 +1,32 @@
 {
   "interval": [
-    78.89,
-    88.6277
+    1.2153,
+    9.5514
   ],
-  "sample_size": "17 states",
+  "sample_size": "18 states",
   "raw_data": [
-    84.6,
-    90.6,
-    81.6,
-    68.6,
-    82.6,
-    86.9,
-    90.6,
-    81.7,
-    94.2,
-    87.5,
-    93.5,
-    92.5,
-    86.7,
-    83.8,
-    60.2,
-    69.4,
-    88.9
+    2.7,
+    0.9,
+    1.8,
+    1.7,
+    9,
+    3,
+    5,
+    8.7,
+    37.6,
+    1.8,
+    2.7,
+    1.5,
+    3.8,
+    3,
+    3.2,
+    1.5,
+    2.5,
+    6.5
   ],
-  "parameter_name": "average percent White per state in the U.S.",
-  "true_value": 78.0686,
+  "parameter_name": "average percent who identify as Asian per state in the U.S.",
+  "true_value": 4.5549,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-03-11"
+  "contained": true,
+  "day": "2026-03-12"
 }
