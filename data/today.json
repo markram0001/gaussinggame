@@ -1,24 +1,28 @@
 {
   "interval": [
-    168019.0175,
-    1048998.7825
+    54156.7133,
+    65150.7152
   ],
-  "sample_size": "10 states",
+  "sample_size": "14 states",
   "raw_data": [
-    165691,
-    1251696,
-    1139910,
-    245243,
-    1852580,
-    579400,
-    63112,
-    123158,
-    609648,
-    54651
+    54970,
+    78444,
+    73775,
+    47597,
+    62818,
+    54602,
+    52919,
+    55461,
+    50536,
+    64049,
+    71621,
+    49469,
+    57144,
+    61747
   ],
-  "parameter_name": "average number of men‑owned firms per state in the U.S.",
-  "true_value": 292380.098,
+  "parameter_name": "average median household income in USD per state in the U.S.",
+  "true_value": 63097.8627,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-13"
+  "day": "2026-03-14"
 }
