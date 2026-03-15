@@ -1,28 +1,34 @@
 {
   "interval": [
-    54156.7133,
-    65150.7152
+    186999.4367,
+    605750.9633
   ],
-  "sample_size": "14 states",
+  "sample_size": "20 states",
   "raw_data": [
-    54970,
-    78444,
-    73775,
-    47597,
-    62818,
-    54602,
-    52919,
-    55461,
-    50536,
-    64049,
-    71621,
-    49469,
-    57144,
-    61747
+    462232,
+    108817,
+    128693,
+    198566,
+    316984,
+    707975,
+    94960,
+    837792,
+    63317,
+    1846686,
+    1006885,
+    101334,
+    733517,
+    124314,
+    93393,
+    79837,
+    461401,
+    60318,
+    217779,
+    282704
   ],
-  "parameter_name": "average median household income in USD per state in the U.S.",
-  "true_value": 63097.8627,
+  "parameter_name": "average number of non‑veteran‑owned firms per state in the U.S.",
+  "true_value": 473326,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-14"
+  "day": "2026-03-15"
 }
