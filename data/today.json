@@ -1,34 +1,19 @@
 {
   "interval": [
-    186999.4367,
-    605750.9633
+    5.2736,
+    7.2864
   ],
-  "sample_size": "20 states",
+  "sample_size": "5 states",
   "raw_data": [
-    462232,
-    108817,
-    128693,
-    198566,
-    316984,
-    707975,
-    94960,
-    837792,
-    63317,
-    1846686,
-    1006885,
-    101334,
-    733517,
-    124314,
-    93393,
-    79837,
-    461401,
-    60318,
-    217779,
-    282704
+    5.9,
+    7.7,
+    5.8,
+    5.8,
+    6.2
   ],
-  "parameter_name": "average number of non‑veteran‑owned firms per state in the U.S.",
-  "true_value": 473326,
+  "parameter_name": "average percent of residents under age 5 per state in the U.S.",
+  "true_value": 5.9588,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-15"
+  "day": "2026-03-16"
 }
