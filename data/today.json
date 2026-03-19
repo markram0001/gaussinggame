@@ -1,27 +1,29 @@
 {
   "interval": [
-    3.6464,
-    21.4305
+    0.0177,
+    0.3956
   ],
-  "sample_size": "13 states",
+  "sample_size": "15 states",
   "raw_data": [
-    4.6,
-    9.6,
-    6.3,
-    7.3,
-    3.9,
-    7.1,
-    2,
-    14.4,
-    9.8,
-    49.3,
-    1.7,
-    39.7,
-    7.3
+    0.1,
+    0.1,
+    0.2,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.1,
+    0.4,
+    0.1,
+    0.1,
+    0.1,
+    0,
+    1.4
   ],
-  "parameter_name": "average percent who identify as Hispanic or Latino per state in the U.S.",
-  "true_value": 12.2471,
+  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
+  "true_value": 0.398,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-03-18"
+  "contained": false,
+  "day": "2026-03-19"
 }
