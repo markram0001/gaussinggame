@@ -1,29 +1,24 @@
 {
   "interval": [
-    0.0177,
-    0.3956
+    8.1488,
+    10.9712
   ],
-  "sample_size": "15 states",
+  "sample_size": "10 states",
   "raw_data": [
-    0.1,
-    0.1,
-    0.2,
-    0.1,
-    0.1,
-    0.1,
-    0.1,
-    0.1,
-    0.1,
-    0.4,
-    0.1,
-    0.1,
-    0.1,
-    0,
-    1.4
+    9.4,
+    8.9,
+    13.2,
+    11.5,
+    7.2,
+    8.5,
+    11,
+    10.6,
+    8.1,
+    7.2
   ],
-  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
-  "true_value": 0.398,
+  "parameter_name": "average percent under age 66 with a disability per state in the U.S.",
+  "true_value": 9.1627,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-03-19"
+  "contained": true,
+  "day": "2026-03-20"
 }
