@@ -1,24 +1,23 @@
 {
   "interval": [
-    8.1488,
-    10.9712
+    27352087.2696,
+    116337991.3971
   ],
-  "sample_size": "10 states",
+  "sample_size": "9 states",
   "raw_data": [
-    9.4,
-    8.9,
-    13.2,
-    11.5,
-    7.2,
-    8.5,
-    11,
-    10.6,
-    8.1,
-    7.2
+    20201432,
+    55160095,
+    309832,
+    -11,
+    123076309,
+    116668830,
+    57499177,
+    148879931,
+    124809759
   ],
-  "parameter_name": "average percent under age 66 with a disability per state in the U.S.",
-  "true_value": 9.1627,
+  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
+  "true_value": 111846402.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-20"
+  "day": "2026-03-21"
 }
