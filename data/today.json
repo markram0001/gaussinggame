@@ -1,27 +1,34 @@
 {
   "interval": [
-    19292.371,
-    89868.3982
+    50241.6571,
+    247292.9429
   ],
-  "sample_size": "13 states",
+  "sample_size": "20 states",
   "raw_data": [
-    25915,
-    71861,
-    91316,
-    18754,
-    12912,
-    25889,
-    9904,
-    96787,
-    16119,
-    213590,
-    30918,
-    89110,
-    6470
+    105234,
+    14737,
+    311684,
+    126100,
+    35982,
+    89967,
+    926112,
+    371588,
+    237242,
+    183380,
+    10592,
+    14440,
+    61035,
+    185043,
+    74824,
+    47302,
+    5777,
+    24423,
+    14571,
+    135313
   ],
-  "parameter_name": "average number of veteran‑owned firms per state in the U.S.",
-  "true_value": 49611.8824,
+  "parameter_name": "average number of minority‑owned firms per state in the U.S.",
+  "true_value": 156032.1373,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-23"
+  "day": "2026-03-24"
 }
