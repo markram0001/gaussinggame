@@ -1,34 +1,22 @@
 {
   "interval": [
-    50241.6571,
-    247292.9429
+    28948.5724,
+    103197.2951
   ],
-  "sample_size": "20 states",
+  "sample_size": "8 states",
   "raw_data": [
-    105234,
-    14737,
-    311684,
-    126100,
-    35982,
-    89967,
-    926112,
-    371588,
-    237242,
-    183380,
-    10592,
-    14440,
-    61035,
-    185043,
-    74824,
-    47302,
-    5777,
-    24423,
-    14571,
-    135313
+    97093.14,
+    75811,
+    46923.27,
+    50645.33,
+    9216.66,
+    39490.09,
+    155779.22,
+    53624.76
   ],
-  "parameter_name": "average number of minority‑owned firms per state in the U.S.",
-  "true_value": 156032.1373,
+  "parameter_name": "average land area per state in the U.S.",
+  "true_value": 69253.0478,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-24"
+  "day": "2026-03-25"
 }
