@@ -1,22 +1,30 @@
 {
   "interval": [
-    28948.5724,
-    103197.2951
+    2.6059,
+    4.7941
   ],
-  "sample_size": "8 states",
+  "sample_size": "16 states",
   "raw_data": [
-    97093.14,
-    75811,
-    46923.27,
-    50645.33,
-    9216.66,
-    39490.09,
-    155779.22,
-    53624.76
+    3.4,
+    2.4,
+    2.6,
+    1.8,
+    1.6,
+    2.7,
+    6.7,
+    3.2,
+    5,
+    4.5,
+    9,
+    0.8,
+    4.1,
+    3,
+    5.2,
+    3.2
   ],
-  "parameter_name": "average land area per state in the U.S.",
-  "true_value": 69253.0478,
+  "parameter_name": "average percent who identify as Asian per state in the U.S.",
+  "true_value": 4.5549,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-25"
+  "day": "2026-03-26"
 }
