@@ -1,30 +1,33 @@
 {
   "interval": [
-    2.6059,
-    4.7941
+    60142002.7538,
+    122613955.1409
   ],
-  "sample_size": "16 states",
+  "sample_size": "19 states",
   "raw_data": [
-    3.4,
-    2.4,
-    2.6,
-    1.8,
-    1.6,
-    2.7,
-    6.7,
-    3.2,
-    5,
-    4.5,
-    9,
-    0.8,
-    4.1,
-    3,
-    5.2,
-    3.2
+    55160095,
+    62712925,
+    99160840,
+    129284438,
+    -11,
+    155836792,
+    131530601,
+    57499177,
+    81927799,
+    111535362,
+    202344646,
+    108854971,
+    51349948,
+    123076309,
+    242763842,
+    -11,
+    39532989,
+    9315494,
+    74295394
   ],
-  "parameter_name": "average percent who identify as Asian per state in the U.S.",
-  "true_value": 4.5549,
+  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
+  "true_value": 111846402.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-26"
+  "day": "2026-03-27"
 }
