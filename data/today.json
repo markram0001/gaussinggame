@@ -1,33 +1,20 @@
 {
   "interval": [
-    60142002.7538,
-    122613955.1409
+    28742.4701,
+    165057.5299
   ],
-  "sample_size": "19 states",
+  "sample_size": "6 states",
   "raw_data": [
-    55160095,
-    62712925,
-    99160840,
-    129284438,
-    -11,
-    155836792,
-    131530601,
-    57499177,
-    81927799,
-    111535362,
-    202344646,
-    108854971,
-    51349948,
-    123076309,
-    242763842,
-    -11,
-    39532989,
-    9315494,
-    74295394
+    38328,
+    35402,
+    83696,
+    187845,
+    165691,
+    70438
   ],
-  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
-  "true_value": 111846402.5098,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-03-27"
+  "contained": false,
+  "day": "2026-03-28"
 }
