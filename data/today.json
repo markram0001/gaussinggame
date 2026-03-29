@@ -1,20 +1,29 @@
 {
   "interval": [
-    28742.4701,
-    165057.5299
+    7.9879,
+    10.2788
   ],
-  "sample_size": "6 states",
+  "sample_size": "15 states",
   "raw_data": [
-    38328,
-    35402,
-    83696,
-    187845,
-    165691,
-    70438
+    6.8,
+    11.9,
+    7.3,
+    8.7,
+    9,
+    6.7,
+    9.6,
+    11.5,
+    8,
+    10,
+    7.2,
+    8.7,
+    9.7,
+    14,
+    7.9
   ],
-  "parameter_name": "average number of men‑owned firms per state in the U.S.",
-  "true_value": 292380.098,
+  "parameter_name": "average percent under age 66 with a disability per state in the U.S.",
+  "true_value": 9.1627,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-03-28"
+  "contained": true,
+  "day": "2026-03-29"
 }
