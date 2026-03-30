@@ -1,29 +1,33 @@
 {
   "interval": [
-    7.9879,
-    10.2788
+    1096089.9028,
+    3428290.6236
   ],
-  "sample_size": "15 states",
+  "sample_size": "19 states",
   "raw_data": [
-    6.8,
-    11.9,
-    7.3,
-    8.7,
-    9,
-    6.7,
-    9.6,
-    11.5,
-    8,
-    10,
-    7.2,
-    8.7,
-    9.7,
-    14,
-    7.9
+    1104394,
+    1921862,
+    780249,
+    1158071,
+    2358156,
+    630008,
+    2148994,
+    230101,
+    2571268,
+    7343234,
+    1480061,
+    2414521,
+    9691647,
+    732585,
+    344397,
+    3151045,
+    559921,
+    3231874,
+    1129227
   ],
-  "parameter_name": "average percent under age 66 with a disability per state in the U.S.",
-  "true_value": 9.1627,
+  "parameter_name": "average number of households per state in the U.S.",
+  "true_value": 2367765.6471,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-29"
+  "day": "2026-03-30"
 }
