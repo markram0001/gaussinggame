@@ -1,33 +1,29 @@
 {
   "interval": [
-    1096089.9028,
-    3428290.6236
+    60581.4903,
+    1146658.5097
   ],
-  "sample_size": "19 states",
+  "sample_size": "15 states",
   "raw_data": [
-    1104394,
-    1921862,
-    780249,
-    1158071,
-    2358156,
-    630008,
-    2148994,
-    230101,
-    2571268,
-    7343234,
-    1480061,
-    2414521,
-    9691647,
-    732585,
-    344397,
-    3151045,
-    559921,
-    3231874,
-    1129227
+    209179,
+    2388050,
+    83145,
+    291452,
+    336445,
+    93753,
+    245381,
+    62583,
+    535299,
+    355166,
+    68623,
+    3453769,
+    730700,
+    138728,
+    62027
   ],
-  "parameter_name": "average number of households per state in the U.S.",
-  "true_value": 2367765.6471,
+  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
+  "true_value": 519324.1569,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-03-30"
+  "day": "2026-03-31"
 }
