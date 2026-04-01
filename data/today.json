@@ -1,29 +1,32 @@
 {
   "interval": [
-    60581.4903,
-    1146658.5097
+    0.0661,
+    0.3894
   ],
-  "sample_size": "15 states",
+  "sample_size": "18 states",
   "raw_data": [
-    209179,
-    2388050,
-    83145,
-    291452,
-    336445,
-    93753,
-    245381,
-    62583,
-    535299,
-    355166,
-    68623,
-    3453769,
-    730700,
-    138728,
-    62027
+    0.1,
+    0.1,
+    0.5,
+    0.1,
+    0.2,
+    0.1,
+    0.2,
+    0.1,
+    0.5,
+    1.4,
+    0.1,
+    0.3,
+    0,
+    0.1,
+    0.1,
+    0,
+    0.1,
+    0.1
   ],
-  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
-  "true_value": 519324.1569,
+  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
+  "true_value": 0.398,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-03-31"
+  "contained": false,
+  "day": "2026-04-01"
 }
