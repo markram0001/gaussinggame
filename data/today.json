@@ -1,32 +1,25 @@
 {
   "interval": [
-    0.0661,
-    0.3894
+    3238560.1411,
+    12969917.4953
   ],
-  "sample_size": "18 states",
+  "sample_size": "11 states",
   "raw_data": [
-    0.1,
-    0.1,
-    0.5,
-    0.1,
-    0.2,
-    0.1,
-    0.2,
-    0.1,
-    0.5,
-    1.4,
-    0.1,
-    0.3,
-    0,
-    0.1,
-    0.1,
-    0,
-    0.1,
-    0.1
+    9288994,
+    1793716,
+    21538187,
+    4505836,
+    886667,
+    5893718,
+    10077331,
+    3605944,
+    643077,
+    20201249,
+    10711908
   ],
-  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
-  "true_value": 0.398,
+  "parameter_name": "average 2014 population per state in the U.S.",
+  "true_value": 6499005.5098,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-04-01"
+  "contained": true,
+  "day": "2026-04-02"
 }
