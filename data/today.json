@@ -1,25 +1,20 @@
 {
   "interval": [
-    3238560.1411,
-    12969917.4953
+    -26441.8696,
+    170650.5363
   ],
-  "sample_size": "11 states",
+  "sample_size": "6 states",
   "raw_data": [
-    9288994,
-    1793716,
-    21538187,
-    4505836,
-    886667,
-    5893718,
-    10077331,
-    3605944,
-    643077,
-    20201249,
-    10711908
+    33208,
+    9904,
+    23049,
+    16119,
+    252377,
+    97969
   ],
-  "parameter_name": "average 2014 population per state in the U.S.",
-  "true_value": 6499005.5098,
+  "parameter_name": "average number of veteran‑owned firms per state in the U.S.",
+  "true_value": 49611.8824,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-02"
+  "day": "2026-04-03"
 }
