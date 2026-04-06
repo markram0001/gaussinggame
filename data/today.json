@@ -1,20 +1,33 @@
 {
   "interval": [
-    -573726.0417,
-    20183175.0417
+    172.6686,
+    181.8577
   ],
-  "sample_size": "6 states",
+  "sample_size": "19 respondents",
   "raw_data": [
-    4349672,
-    3094498,
-    13996635,
-    1873699,
-    27937381,
-    7576462
+    176,
+    173,
+    186,
+    175,
+    182,
+    188,
+    188,
+    169,
+    172,
+    181,
+    180,
+    170,
+    152,
+    190,
+    180,
+    167,
+    189,
+    180,
+    170
   ],
-  "parameter_name": "average accommodation and food services sales in USD per state in the U.S.",
-  "true_value": 13885070.549,
-  "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-04-05"
+  "parameter_name": "average respondent's height in centimeters of 48716 people who took the European Social Survey in 2022",
+  "true_value": 170.8624,
+  "source": "ESS.csv",
+  "contained": false,
+  "day": "2026-04-06"
 }
