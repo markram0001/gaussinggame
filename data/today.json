@@ -1,33 +1,24 @@
 {
   "interval": [
-    172.6686,
-    181.8577
+    7.2999,
+    15.0801
   ],
-  "sample_size": "19 respondents",
+  "sample_size": "10 states",
   "raw_data": [
-    176,
-    173,
-    186,
-    175,
-    182,
-    188,
-    188,
-    169,
-    172,
-    181,
-    180,
-    170,
-    152,
-    190,
-    180,
-    167,
-    189,
-    180,
-    170
+    7.1,
+    4,
+    11.4,
+    9.9,
+    10.7,
+    11.1,
+    12.2,
+    19.3,
+    20.9,
+    5.3
   ],
-  "parameter_name": "average respondent's height in centimeters of 48716 people who took the European Social Survey in 2022",
-  "true_value": 170.8624,
-  "source": "ESS.csv",
-  "contained": false,
-  "day": "2026-04-06"
+  "parameter_name": "average percent who identify as Hispanic or Latino per state in the U.S.",
+  "true_value": 12.2471,
+  "source": "state_demographics.csv",
+  "contained": true,
+  "day": "2026-04-07"
 }
