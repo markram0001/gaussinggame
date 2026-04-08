@@ -1,24 +1,31 @@
 {
   "interval": [
-    7.2999,
-    15.0801
+    483035.651,
+    3645922.349
   ],
-  "sample_size": "10 states",
+  "sample_size": "17 states",
   "raw_data": [
-    7.1,
-    4,
-    11.4,
-    9.9,
-    10.7,
-    11.1,
-    12.2,
-    19.3,
-    20.9,
-    5.3
+    13044266,
+    977313,
+    459424,
+    284386,
+    230101,
+    2571268,
+    260029,
+    2570419,
+    410489,
+    732585,
+    2185603,
+    559921,
+    1480061,
+    427871,
+    1867893,
+    4676358,
+    2358156
   ],
-  "parameter_name": "average percent who identify as Hispanic or Latino per state in the U.S.",
-  "true_value": 12.2471,
+  "parameter_name": "average number of households per state in the U.S.",
+  "true_value": 2367765.6471,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-07"
+  "day": "2026-04-08"
 }
