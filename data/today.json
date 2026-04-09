@@ -1,31 +1,31 @@
 {
   "interval": [
-    483035.651,
-    3645922.349
+    220570.6475,
+    720054.9996
   ],
   "sample_size": "17 states",
   "raw_data": [
-    13044266,
-    977313,
-    459424,
-    284386,
-    230101,
-    2571268,
-    260029,
-    2570419,
-    410489,
-    732585,
-    2185603,
-    559921,
-    1480061,
-    427871,
-    1867893,
-    4676358,
-    2358156
+    414291,
+    432980,
+    62427,
+    805985,
+    81314,
+    367726,
+    499926,
+    479059,
+    550453,
+    112419,
+    259121,
+    2100187,
+    792088,
+    146642,
+    164089,
+    73418,
+    653193
   ],
-  "parameter_name": "average number of households per state in the U.S.",
-  "true_value": 2367765.6471,
+  "parameter_name": "average total number of firms per state in the U.S.",
+  "true_value": 545254.902,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-08"
+  "day": "2026-04-09"
 }
