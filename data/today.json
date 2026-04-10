@@ -1,31 +1,27 @@
 {
   "interval": [
-    220570.6475,
-    720054.9996
+    5.6065,
+    20.855
   ],
-  "sample_size": "17 states",
+  "sample_size": "13 states",
   "raw_data": [
-    414291,
-    432980,
-    62427,
-    805985,
-    81314,
-    367726,
-    499926,
-    479059,
-    550453,
-    112419,
-    259121,
-    2100187,
-    792088,
-    146642,
-    164089,
-    73418,
-    653193
+    6.5,
+    14.6,
+    10.3,
+    2.3,
+    13.1,
+    46,
+    12.9,
+    4.4,
+    9.9,
+    6.7,
+    0.9,
+    32.6,
+    11.8
   ],
-  "parameter_name": "average total number of firms per state in the U.S.",
-  "true_value": 545254.902,
+  "parameter_name": "average percent who identify as Black per state in the U.S.",
+  "true_value": 11.8725,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-09"
+  "day": "2026-04-10"
 }
