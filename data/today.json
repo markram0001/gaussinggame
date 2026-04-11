@@ -1,27 +1,24 @@
 {
   "interval": [
-    5.6065,
-    20.855
+    1583.8211,
+    1101059.9789
   ],
-  "sample_size": "13 states",
+  "sample_size": "10 states",
   "raw_data": [
-    6.5,
-    14.6,
-    10.3,
-    2.3,
-    13.1,
-    46,
-    12.9,
-    4.4,
-    9.9,
-    6.7,
-    0.9,
-    32.6,
-    11.8
+    273491,
+    54217,
+    108817,
+    198566,
+    56904,
+    1811544,
+    51353,
+    2057218,
+    837792,
+    63317
   ],
-  "parameter_name": "average percent who identify as Black per state in the U.S.",
-  "true_value": 11.8725,
+  "parameter_name": "average number of non‑veteran‑owned firms per state in the U.S.",
+  "true_value": 473326,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-10"
+  "day": "2026-04-11"
 }
