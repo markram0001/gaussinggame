@@ -1,24 +1,22 @@
 {
   "interval": [
-    1583.8211,
-    1101059.9789
+    -309737.6387,
+    23384071.8887
   ],
-  "sample_size": "10 states",
+  "sample_size": "8 states",
   "raw_data": [
-    273491,
-    54217,
-    108817,
-    198566,
-    56904,
-    1811544,
-    51353,
-    2057218,
-    837792,
-    63317
+    4657757,
+    39538223,
+    989948,
+    20201249,
+    21538187,
+    3190369,
+    1097379,
+    1084225
   ],
-  "parameter_name": "average number of non‑veteran‑owned firms per state in the U.S.",
-  "true_value": 473326,
+  "parameter_name": "average 2014 population per state in the U.S.",
+  "true_value": 6499005.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-11"
+  "day": "2026-04-12"
 }
