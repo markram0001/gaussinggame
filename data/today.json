@@ -1,22 +1,32 @@
 {
   "interval": [
-    -309737.6387,
-    23384071.8887
+    131366.7312,
+    496391.3799
   ],
-  "sample_size": "8 states",
+  "sample_size": "18 states",
   "raw_data": [
-    4657757,
-    39538223,
-    989948,
-    20201249,
-    21538187,
-    3190369,
-    1097379,
-    1084225
+    120447,
+    380690,
+    46067,
+    185671,
+    165538,
+    176444,
+    36988,
+    365356,
+    26156,
+    101975,
+    103776,
+    283045,
+    570264,
+    300044,
+    659584,
+    488061,
+    65186,
+    1574531
   ],
-  "parameter_name": "average 2014 population per state in the U.S.",
-  "true_value": 6499005.5098,
+  "parameter_name": "average number of veterans per state in the U.S.",
+  "true_value": 357457.2941,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-12"
+  "day": "2026-04-13"
 }
