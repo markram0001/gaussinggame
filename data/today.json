@@ -1,32 +1,22 @@
 {
   "interval": [
-    131366.7312,
-    496391.3799
+    0.0311,
+    0.4689
   ],
-  "sample_size": "18 states",
+  "sample_size": "8 states",
   "raw_data": [
-    120447,
-    380690,
-    46067,
-    185671,
-    165538,
-    176444,
-    36988,
-    365356,
-    26156,
-    101975,
-    103776,
-    283045,
-    570264,
-    300044,
-    659584,
-    488061,
-    65186,
-    1574531
+    0.8,
+    0.1,
+    0.2,
+    0.1,
+    0.1,
+    0.1,
+    0.5,
+    0.1
   ],
-  "parameter_name": "average number of veterans per state in the U.S.",
-  "true_value": 357457.2941,
+  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
+  "true_value": 0.398,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-13"
+  "day": "2026-04-14"
 }
