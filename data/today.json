@@ -1,28 +1,31 @@
 {
   "interval": [
-    22.3472,
-    27.1242
+    233383.0734,
+    513871.3972
   ],
-  "sample_size": "14 states",
+  "sample_size": "17 states",
   "raw_data": [
-    25.2,
-    19.3,
-    24.8,
-    22.3,
-    28,
-    26.3,
-    26.6,
-    25.7,
-    19.4,
-    24.2,
-    17.9,
-    32.2,
-    30.8,
-    23.6
+    204562,
+    533808,
+    344981,
+    102746,
+    795129,
+    236561,
+    272651,
+    428716,
+    603182,
+    277676,
+    121297,
+    1121749,
+    259614,
+    405090,
+    434025,
+    155094,
+    54782
   ],
-  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
-  "true_value": 24.798,
+  "parameter_name": "average number of non‑minority‑owned firms per state in the U.S.",
+  "true_value": 373752.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-16"
+  "day": "2026-04-17"
 }
