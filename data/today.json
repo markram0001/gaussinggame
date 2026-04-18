@@ -1,31 +1,30 @@
 {
   "interval": [
-    233383.0734,
-    513871.3972
+    7.3052,
+    21.1198
   ],
-  "sample_size": "17 states",
+  "sample_size": "16 states",
   "raw_data": [
-    204562,
-    533808,
-    344981,
-    102746,
-    795129,
-    236561,
-    272651,
-    428716,
-    603182,
-    277676,
-    121297,
-    1121749,
-    259614,
-    405090,
-    434025,
-    155094,
-    54782
+    20.9,
+    5.3,
+    2,
+    9.8,
+    19.3,
+    4.6,
+    4,
+    13.4,
+    10.6,
+    10.1,
+    9.8,
+    11.4,
+    7.3,
+    9.9,
+    49.3,
+    39.7
   ],
-  "parameter_name": "average number of non‑minority‑owned firms per state in the U.S.",
-  "true_value": 373752.1176,
+  "parameter_name": "average percent who identify as Hispanic or Latino per state in the U.S.",
+  "true_value": 12.2471,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-17"
+  "day": "2026-04-18"
 }
