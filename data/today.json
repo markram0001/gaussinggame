@@ -1,37 +1,28 @@
 {
   "interval": [
-    38.3778,
-    122.4918
+    58168.4808,
+    73041.2334
   ],
-  "sample_size": "23 respondents",
+  "sample_size": "14 states",
   "raw_data": [
-    240,
-    60,
-    30,
-    0,
-    60,
-    30,
-    10,
-    30,
-    0,
-    60,
-    150,
-    300,
-    70,
-    60,
-    30,
-    0,
-    360,
-    120,
-    0,
-    120,
-    30,
-    60,
-    30
+    50589,
+    46711,
+    57144,
+    72331,
+    49469,
+    75235,
+    81215,
+    64894,
+    55461,
+    82545,
+    61973,
+    61874,
+    74222,
+    84805
   ],
-  "parameter_name": "average number of minutes per day spent following political news of 49384 people who took the European Social Survey in 2022",
-  "true_value": 97.8963,
-  "source": "ESS.csv",
+  "parameter_name": "average median household income in USD per state in the U.S.",
+  "true_value": 63097.8627,
+  "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-19"
+  "day": "2026-04-20"
 }
