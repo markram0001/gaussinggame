@@ -1,28 +1,29 @@
 {
   "interval": [
-    58168.4808,
-    73041.2334
+    62347742.875,
+    208002864.8583
   ],
-  "sample_size": "14 states",
+  "sample_size": "15 states",
   "raw_data": [
-    50589,
-    46711,
-    57144,
-    72331,
-    49469,
-    75235,
-    81215,
-    64894,
-    55461,
-    82545,
-    61973,
-    61874,
-    74222,
-    84805
+    178794945,
+    78898182,
+    91641605,
+    119302046,
+    67815200,
+    51632467,
+    481800461,
+    110002385,
+    251167736,
+    85857962,
+    22637923,
+    36815256,
+    58093824,
+    37053190,
+    356116376
   ],
-  "parameter_name": "average median household income in USD per state in the U.S.",
-  "true_value": 63097.8627,
+  "parameter_name": "average retail sales per state in the U.S.",
+  "true_value": 82741605.3137,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-20"
+  "day": "2026-04-21"
 }
