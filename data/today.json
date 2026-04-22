@@ -1,29 +1,22 @@
 {
   "interval": [
-    62347742.875,
-    208002864.8583
+    -68589.7545,
+    333510.0045
   ],
-  "sample_size": "15 states",
+  "sample_size": "8 states",
   "raw_data": [
-    178794945,
-    78898182,
-    91641605,
-    119302046,
-    67815200,
-    51632467,
-    481800461,
-    110002385,
-    251167736,
-    85857962,
-    22637923,
-    36815256,
-    58093824,
-    37053190,
-    356116376
+    3190,
+    24423,
+    14737,
+    709021,
+    4101,
+    47302,
+    185043,
+    71864
   ],
-  "parameter_name": "average retail sales per state in the U.S.",
-  "true_value": 82741605.3137,
+  "parameter_name": "average number of minority‑owned firms per state in the U.S.",
+  "true_value": 156032.1373,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-21"
+  "day": "2026-04-22"
 }
