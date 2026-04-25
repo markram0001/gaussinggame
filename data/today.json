@@ -1,30 +1,33 @@
 {
   "interval": [
-    139521.4709,
-    980850.6541
+    58051.4411,
+    360136.1378
   ],
-  "sample_size": "16 states",
+  "sample_size": "19 states",
   "raw_data": [
-    2514301,
-    108327,
-    53042,
-    745483,
-    68405,
-    68623,
-    2388050,
-    632995,
-    62027,
-    355166,
-    117341,
-    955621,
-    209179,
-    135986,
-    56523,
-    491908
+    35449,
+    209119,
+    19344,
+    44453,
+    236290,
+    151114,
+    51936,
+    162798,
+    157821,
+    123015,
+    22141,
+    133859,
+    725709,
+    23964,
+    306824,
+    82508,
+    1320085,
+    77194,
+    89159
   ],
-  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
-  "true_value": 519324.1569,
+  "parameter_name": "average number of women‑owned firms per state in the U.S.",
+  "true_value": 193842.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-04-24"
+  "day": "2026-04-25"
 }
