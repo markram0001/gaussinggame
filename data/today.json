@@ -1,29 +1,29 @@
 {
   "interval": [
-    2740253.6997,
-    8622621.5003
+    1.3243,
+    2.5424
   ],
-  "sample_size": "15 states",
+  "sample_size": "15 respondents",
   "raw_data": [
-    6785528,
-    20201249,
-    4657757,
-    12812508,
-    4237256,
-    1793716,
-    6154913,
-    3104614,
-    5706494,
-    10711908,
-    1961504,
-    1455271,
-    689545,
-    3959353,
-    989948
+    5,
+    2,
+    1,
+    1,
+    1,
+    2,
+    3,
+    2,
+    3,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1
   ],
-  "parameter_name": "average 2014 population per state in the U.S.",
-  "true_value": 6499005.5098,
-  "source": "state_demographics.csv",
+  "parameter_name": "average number of people living in the respondent's household of 49779 people who took the European Social Survey in 2022",
+  "true_value": 2.5269,
+  "source": "ESS.csv",
   "contained": true,
-  "day": "2026-05-01"
+  "day": "2026-05-02"
 }
