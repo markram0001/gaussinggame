@@ -1,29 +1,31 @@
 {
   "interval": [
-    1.3243,
-    2.5424
+    57166.3637,
+    66618.9304
   ],
-  "sample_size": "15 respondents",
+  "sample_size": "17 states",
   "raw_data": [
-    5,
-    2,
-    1,
-    1,
-    1,
-    2,
-    3,
-    2,
-    3,
-    1,
-    2,
-    2,
-    1,
-    2,
-    1
+    61874,
+    74222,
+    62818,
+    54970,
+    86420,
+    58945,
+    67167,
+    55660,
+    57918,
+    58275,
+    58700,
+    64894,
+    60365,
+    72331,
+    46711,
+    54602,
+    56303
   ],
-  "parameter_name": "average number of people living in the respondent's household of 49779 people who took the European Social Survey in 2022",
-  "true_value": 2.5269,
-  "source": "ESS.csv",
+  "parameter_name": "average median household income in USD per state in the U.S.",
+  "true_value": 63097.8627,
+  "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-02"
+  "day": "2026-05-03"
 }
