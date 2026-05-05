@@ -1,30 +1,21 @@
 {
   "interval": [
-    109905.2361,
-    621824.8889
+    5.5324,
+    17.5819
   ],
-  "sample_size": "16 states",
+  "sample_size": "7 states",
   "raw_data": [
-    1139910,
-    464592,
-    357158,
-    55913,
-    70438,
-    83696,
-    435677,
-    1852580,
-    353012,
-    125079,
-    215111,
-    268710,
-    203604,
-    54651,
-    38328,
-    135382
+    6.9,
+    9.6,
+    6.9,
+    7.2,
+    22.4,
+    8.5,
+    19.4
   ],
-  "parameter_name": "average number of men‑owned firms per state in the U.S.",
-  "true_value": 292380.098,
+  "parameter_name": "average percent foreign‑born per state in the U.S.",
+  "true_value": 9.4059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-04"
+  "day": "2026-05-05"
 }
