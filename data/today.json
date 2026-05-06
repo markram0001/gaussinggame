@@ -1,21 +1,19 @@
 {
   "interval": [
-    5.5324,
-    17.5819
+    -10428.6117,
+    217115.0837
   ],
-  "sample_size": "7 states",
+  "sample_size": "5 states",
   "raw_data": [
-    6.9,
-    9.6,
-    6.9,
-    7.2,
-    22.4,
-    8.5,
-    19.4
+    75811,
+    95988.01,
+    30060.7,
+    53624.76,
+    261231.71
   ],
-  "parameter_name": "average percent foreign‑born per state in the U.S.",
-  "true_value": 9.4059,
+  "parameter_name": "average land area per state in the U.S.",
+  "true_value": 69253.0478,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-05"
+  "day": "2026-05-06"
 }
