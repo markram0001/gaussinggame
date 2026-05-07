@@ -1,19 +1,22 @@
 {
   "interval": [
-    -10428.6117,
-    217115.0837
+    2.5185,
+    2.974
   ],
-  "sample_size": "5 states",
+  "sample_size": "8 states",
   "raw_data": [
-    75811,
-    95988.01,
-    30060.7,
-    53624.76,
-    261231.71
+    2.4,
+    3.12,
+    2.68,
+    2.95,
+    3,
+    2.85,
+    2.45,
+    2.52
   ],
-  "parameter_name": "average land area per state in the U.S.",
-  "true_value": 69253.0478,
+  "parameter_name": "average persons per household per state in the U.S.",
+  "true_value": 2.5582,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-06"
+  "day": "2026-05-07"
 }
