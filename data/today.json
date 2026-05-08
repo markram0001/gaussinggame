@@ -1,22 +1,30 @@
 {
   "interval": [
-    2.5185,
-    2.974
+    12.627,
+    22.1605
   ],
-  "sample_size": "8 states",
+  "sample_size": "16 states",
   "raw_data": [
-    2.4,
-    3.12,
-    2.68,
-    2.95,
-    3,
-    2.85,
-    2.45,
-    2.52
+    7.2,
+    26.6,
+    11.8,
+    13.3,
+    30.5,
+    6.4,
+    15.4,
+    14,
+    7.4,
+    30.4,
+    8.8,
+    23.2,
+    34,
+    16.3,
+    16.1,
+    16.9
   ],
-  "parameter_name": "average persons per household per state in the U.S.",
-  "true_value": 2.5582,
+  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
+  "true_value": 14.9843,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-07"
+  "day": "2026-05-08"
 }
