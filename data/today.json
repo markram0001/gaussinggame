@@ -1,31 +1,34 @@
 {
   "interval": [
-    685.8425,
-    223472.3928
+    72.1893,
+    82.1807
   ],
-  "sample_size": "17 states",
+  "sample_size": "20 states",
   "raw_data": [
-    74824,
-    61035,
-    122653,
-    14440,
-    13688,
-    61252,
-    71864,
-    29983,
-    105234,
-    926112,
-    24423,
-    3190,
-    131512,
-    203394,
-    5578,
-    41456,
-    14707
+    86.9,
+    69.2,
+    79,
+    93.5,
+    87,
+    88.1,
+    58.5,
+    81.7,
+    78.7,
+    65.3,
+    59.1,
+    86.3,
+    79.7,
+    70.6,
+    90.6,
+    81.9,
+    81.6,
+    71.9,
+    73.9,
+    60.2
   ],
-  "parameter_name": "average number of minority‑owned firms per state in the U.S.",
-  "true_value": 156032.1373,
+  "parameter_name": "average percent who identify as White per state in the U.S.",
+  "true_value": 78.0686,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-09"
+  "day": "2026-05-10"
 }
