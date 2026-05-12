@@ -1,29 +1,24 @@
 {
   "interval": [
-    55876620.9986,
-    139810772.0681
+    79.2045,
+    84.3955
   ],
-  "sample_size": "15 states",
+  "sample_size": "10 states",
   "raw_data": [
-    124809759,
-    155836792,
-    271191050,
-    131530601,
-    10783794,
-    202344646,
-    11262158,
-    29102352,
-    62712925,
-    16882647,
-    74295394,
-    66441608,
-    111535362,
-    148879931,
-    50046429
+    81.3,
+    84.8,
+    73,
+    86.7,
+    81.8,
+    83.4,
+    80.2,
+    81.9,
+    81.5,
+    83.4
   ],
-  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
-  "true_value": 111846402.5098,
+  "parameter_name": "average percent of households with internet access per state in the U.S.",
+  "true_value": 82.0451,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-11"
+  "day": "2026-05-12"
 }
