@@ -1,24 +1,33 @@
 {
   "interval": [
-    79.2045,
-    84.3955
+    6.3956,
+    12.4465
   ],
-  "sample_size": "10 states",
+  "sample_size": "19 states",
   "raw_data": [
-    81.3,
-    84.8,
-    73,
-    86.7,
-    81.8,
-    83.4,
-    80.2,
-    81.9,
-    81.5,
-    83.4
+    6,
+    9.4,
+    20.7,
+    19.4,
+    3.9,
+    14.6,
+    22.6,
+    6.9,
+    4.8,
+    5,
+    3.7,
+    6.1,
+    2.4,
+    7.2,
+    13.3,
+    7.1,
+    9.6,
+    14.1,
+    2.2
   ],
-  "parameter_name": "average percent of households with internet access per state in the U.S.",
-  "true_value": 82.0451,
+  "parameter_name": "average percent foreign‑born per state in the U.S.",
+  "true_value": 9.4059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-12"
+  "day": "2026-05-13"
 }
