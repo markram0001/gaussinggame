@@ -1,22 +1,24 @@
 {
   "interval": [
-    0.0502,
-    0.3248
+    118508.3302,
+    307444.0698
   ],
-  "sample_size": "8 states",
+  "sample_size": "10 states",
   "raw_data": [
-    0.1,
-    0.1,
-    0.4,
-    0.1,
-    0.1,
-    0.1,
-    0.5,
-    0.1
+    357158,
+    446128,
+    215111,
+    187845,
+    123158,
+    70438,
+    114057,
+    202446,
+    60409,
+    353012
   ],
-  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
-  "true_value": 0.398,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-05-14"
+  "contained": true,
+  "day": "2026-05-15"
 }
