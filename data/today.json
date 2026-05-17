@@ -1,34 +1,21 @@
 {
   "interval": [
-    4.7724,
-    10.1676
+    57.9535,
+    70.818
   ],
-  "sample_size": "20 states",
+  "sample_size": "7 states",
   "raw_data": [
-    5,
-    2.2,
-    14.3,
-    3.5,
-    3.9,
-    5.1,
-    4.7,
-    7.2,
-    9.4,
-    7.8,
-    6.1,
-    15.2,
-    4.2,
-    9.7,
-    1.7,
-    6.9,
-    6.9,
-    26.8,
-    3.6,
-    5.2
+    70.8,
+    53.9,
+    68.1,
+    54.8,
+    67.7,
+    67.2,
+    68.2
   ],
-  "parameter_name": "average percent foreign‑born per state in the U.S.",
-  "true_value": 9.4059,
+  "parameter_name": "average homeownership rate per state in the U.S.",
+  "true_value": 65.6725,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-16"
+  "day": "2026-05-17"
 }
