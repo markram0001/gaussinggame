@@ -1,21 +1,32 @@
 {
   "interval": [
-    57.9535,
-    70.818
+    188394.2073,
+    266839.126
   ],
-  "sample_size": "7 states",
+  "sample_size": "18 states",
   "raw_data": [
-    70.8,
-    53.9,
-    68.1,
-    54.8,
-    67.7,
-    67.2,
-    68.2
+    147800,
+    141700,
+    142700,
+    251100,
+    230600,
+    223900,
+    312200,
+    162300,
+    194500,
+    145700,
+    313700,
+    381600,
+    220500,
+    151900,
+    172500,
+    335600,
+    225500,
+    343300
   ],
-  "parameter_name": "average homeownership rate per state in the U.S.",
-  "true_value": 65.6725,
+  "parameter_name": "average median home value in USD per state in the U.S.",
+  "true_value": 233176.4706,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-17"
+  "day": "2026-05-18"
 }
