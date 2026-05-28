@@ -1,27 +1,20 @@
 {
   "interval": [
-    83.2256,
-    86.4975
+    -286317.2936,
+    3860838.627
   ],
-  "sample_size": "13 states",
+  "sample_size": "6 states",
   "raw_data": [
-    83.8,
-    82,
-    87.3,
-    80.5,
-    84.9,
-    83.1,
-    84.9,
-    88.3,
-    87.9,
-    82.6,
-    83.2,
-    85.2,
-    89.5
+    750939,
+    470168,
+    5388066,
+    851227,
+    2819383,
+    443781
   ],
-  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
-  "true_value": 85.2353,
+  "parameter_name": "average number of housing units per state in the U.S.",
+  "true_value": 2738906.7451,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-27"
+  "day": "2026-05-28"
 }
