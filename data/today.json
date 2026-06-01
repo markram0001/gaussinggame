@@ -1,22 +1,21 @@
 {
   "interval": [
-    58.1539,
-    68.6711
+    28275.2347,
+    37287.3367
   ],
-  "sample_size": "8 states",
+  "sample_size": "7 states",
   "raw_data": [
-    54.8,
-    65.6,
-    71.1,
-    62.4,
-    65.2,
-    70,
-    64.3,
-    53.9
+    38915,
+    27923,
+    39326,
+    31557,
+    34352,
+    27970,
+    29426
   ],
-  "parameter_name": "average homeownership rate per state in the U.S.",
-  "true_value": 65.6725,
+  "parameter_name": "average per‑capita income in USD per state in the U.S.",
+  "true_value": 33743.0588,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-05-31"
+  "day": "2026-06-01"
 }
