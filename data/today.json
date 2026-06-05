@@ -1,29 +1,28 @@
 {
   "interval": [
-    84.836,
-    87.004
+    65837.3834,
+    310846.0452
   ],
-  "sample_size": "15 states",
+  "sample_size": "14 states",
   "raw_data": [
-    83.2,
-    87.3,
-    84.4,
-    84.9,
-    86.2,
-    85.2,
-    86.7,
-    84.8,
-    84.1,
-    82.6,
-    87.4,
-    89.8,
-    87.2,
-    87.9,
-    87.1
+    866678,
+    106678,
+    252944,
+    106011,
+    23964,
+    133859,
+    304803,
+    209119,
+    45121,
+    187677,
+    137630,
+    23722,
+    75962,
+    162616
   ],
-  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
-  "true_value": 85.2353,
+  "parameter_name": "average number of women‑owned firms per state in the U.S.",
+  "true_value": 193842.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-04"
+  "day": "2026-06-05"
 }
