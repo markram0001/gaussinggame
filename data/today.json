@@ -1,28 +1,23 @@
 {
   "interval": [
-    65837.3834,
-    310846.0452
+    4.7314,
+    12.2908
   ],
-  "sample_size": "14 states",
+  "sample_size": "9 states",
   "raw_data": [
-    866678,
-    106678,
-    252944,
-    106011,
-    23964,
-    133859,
-    304803,
-    209119,
-    45121,
-    187677,
-    137630,
-    23722,
-    75962,
-    162616
+    3.9,
+    9.9,
+    5,
+    18.5,
+    9.6,
+    3.5,
+    6.9,
+    13.3,
+    6
   ],
-  "parameter_name": "average number of women‑owned firms per state in the U.S.",
-  "true_value": 193842.1176,
+  "parameter_name": "average percent foreign‑born per state in the U.S.",
+  "true_value": 9.4059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-05"
+  "day": "2026-06-06"
 }
