@@ -1,23 +1,30 @@
 {
   "interval": [
-    14.0459,
-    324.443
+    1414194.5402,
+    4344990.7098
   ],
-  "sample_size": "9 states",
+  "sample_size": "16 states",
   "raw_data": [
-    56.3,
-    147,
-    153.9,
-    19,
-    411.2,
-    594.8,
-    34.9,
-    104.9,
-    1.2
+    3562143,
+    9673682,
+    1133521,
+    401862,
+    1808465,
+    3195004,
+    8404381,
+    339439,
+    1524992,
+    2464164,
+    1285684,
+    2477753,
+    3075981,
+    851227,
+    642315,
+    5232869
   ],
-  "parameter_name": "average population density per state in the U.S.",
-  "true_value": 384.4039,
+  "parameter_name": "average number of housing units per state in the U.S.",
+  "true_value": 2738906.7451,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-06-09"
+  "contained": true,
+  "day": "2026-06-10"
 }
