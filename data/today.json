@@ -1,30 +1,26 @@
 {
   "interval": [
-    1414194.5402,
-    4344990.7098
+    256054.3752,
+    577455.6248
   ],
-  "sample_size": "16 states",
+  "sample_size": "12 states",
   "raw_data": [
-    3562143,
-    9673682,
-    1133521,
-    401862,
-    1808465,
-    3195004,
-    8404381,
-    339439,
-    1524992,
-    2464164,
-    1285684,
-    2477753,
-    3075981,
-    851227,
-    642315,
-    5232869
+    579400,
+    245243,
+    257948,
+    446128,
+    1084885,
+    464592,
+    236252,
+    609648,
+    202446,
+    357158,
+    302249,
+    215111
   ],
-  "parameter_name": "average number of housing units per state in the U.S.",
-  "true_value": 2738906.7451,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-10"
+  "day": "2026-06-11"
 }
