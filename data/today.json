@@ -1,28 +1,26 @@
 {
   "interval": [
-    64.337,
-    68.8916
+    4.8227,
+    14.2107
   ],
-  "sample_size": "14 states",
+  "sample_size": "12 states",
   "raw_data": [
-    68.8,
-    64.4,
-    62,
-    67.7,
-    63,
-    73.2,
-    68.2,
-    66.1,
-    69.1,
-    58.9,
-    66.1,
-    68.9,
-    63.9,
-    72.3
+    6.1,
+    9,
+    11.8,
+    14.1,
+    9.9,
+    14.6,
+    13.1,
+    1.5,
+    2.3,
+    2.6,
+    2.2,
+    27
   ],
-  "parameter_name": "average homeownership rate per state in the U.S.",
-  "true_value": 65.6725,
+  "parameter_name": "average percent who identify as Black per state in the U.S.",
+  "true_value": 11.8725,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-14"
+  "day": "2026-06-15"
 }
