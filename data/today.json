@@ -1,21 +1,25 @@
 {
   "interval": [
-    85.4974,
-    90.2454
+    1440478.5549,
+    5385685.4451
   ],
-  "sample_size": "7 states",
+  "sample_size": "11 states",
   "raw_data": [
-    87.1,
-    86.6,
-    91.7,
-    91,
-    87.5,
-    84.5,
-    86.7
+    1339021,
+    2470316,
+    5732628,
+    3641812,
+    2006358,
+    2351286,
+    3562143,
+    11283353,
+    1389129,
+    2819383,
+    948473
   ],
-  "parameter_name": "average percent with a high school diploma or higher per state in the U.S.",
-  "true_value": 89.5353,
+  "parameter_name": "average number of housing units per state in the U.S.",
+  "true_value": 2738906.7451,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-18"
+  "day": "2026-06-19"
 }
