@@ -1,21 +1,26 @@
 {
   "interval": [
-    40270882.9061,
-    130346398.5224
+    31900.9002,
+    38533.0998
   ],
-  "sample_size": "7 states",
+  "sample_size": "12 states",
   "raw_data": [
-    66441608,
-    148879931,
-    51349948,
-    57499177,
-    129284438,
-    124809759,
-    18895624
+    33763,
+    29426,
+    29775,
+    28178,
+    38226,
+    31713,
+    33375,
+    36062,
+    44496,
+    35567,
+    39278,
+    42745
   ],
-  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
-  "true_value": 111846402.5098,
+  "parameter_name": "average per‑capita income in USD per state in the U.S.",
+  "true_value": 33743.0588,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-21"
+  "day": "2026-06-22"
 }
