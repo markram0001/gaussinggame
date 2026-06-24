@@ -1,19 +1,34 @@
 {
   "interval": [
-    -4896.5989,
-    127934.9989
+    5.6842,
+    6.2758
   ],
-  "sample_size": "5 states",
+  "sample_size": "20 states",
   "raw_data": [
-    14571,
-    5578,
-    105234,
-    126100,
-    56113
+    6.2,
+    6.5,
+    6.2,
+    6,
+    5.4,
+    5.2,
+    6,
+    5.7,
+    5.8,
+    4.7,
+    6.2,
+    5.8,
+    6.2,
+    7.7,
+    5.7,
+    6,
+    6.5,
+    5.1,
+    6.5,
+    6.2
   ],
-  "parameter_name": "average number of minority‑owned firms per state in the U.S.",
-  "true_value": 156032.1373,
+  "parameter_name": "average percent of residents under age 5 per state in the U.S.",
+  "true_value": 5.9588,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-06-23"
+  "contained": true,
+  "day": "2026-06-24"
 }
