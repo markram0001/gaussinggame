@@ -1,33 +1,33 @@
 {
   "interval": [
-    24.8115,
-    84.8832
+    -0.3953,
+    1.8058
   ],
-  "sample_size": "19 respondents",
+  "sample_size": "19 states",
   "raw_data": [
-    4,
-    48,
-    27,
-    38.4,
-    66,
-    41.1,
-    253.6,
-    18,
-    24,
-    17.6,
-    27.6,
-    17.4,
-    118,
+    0.1,
+    10.1,
+    0.1,
+    0.1,
+    0.1,
+    0.3,
+    0.1,
+    0.2,
+    0.1,
+    0.5,
+    0.1,
+    0.1,
     0,
-    70.8,
-    16,
-    88.2,
-    15.8,
-    150.6
+    0,
+    0.1,
+    0.1,
+    0.1,
+    0.8,
+    0.4
   ],
-  "parameter_name": "average grams of alcohol consumed the last time the respondent drank on a weekend day of 33294 people who took the European Social Survey in 2022",
-  "true_value": 45.7605,
-  "source": "ESS.csv",
+  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
+  "true_value": 0.398,
+  "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-06-28"
+  "day": "2026-06-29"
 }
