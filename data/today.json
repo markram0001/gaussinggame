@@ -1,32 +1,32 @@
 {
   "interval": [
-    2.1178,
-    3.6822
+    68.7015,
+    85.2318
   ],
   "sample_size": "18 states",
   "raw_data": [
-    2.2,
-    2.4,
-    7.5,
-    2.9,
-    2.1,
-    2.2,
-    2.6,
-    2.9,
-    2,
-    4,
-    2.7,
-    2.5,
-    1.3,
-    6.3,
-    2.2,
-    2,
-    1.8,
-    2.6
+    86.7,
+    60.2,
+    81.7,
+    58.5,
+    25.5,
+    94.2,
+    78.7,
+    79.7,
+    83.6,
+    69.2,
+    87,
+    93.1,
+    69.1,
+    73.9,
+    86.9,
+    88.1,
+    76.8,
+    92.5
   ],
-  "parameter_name": "average percent identifying as two or more races per state in the U.S.",
-  "true_value": 3.1137,
+  "parameter_name": "average percent who identify as White per state in the U.S.",
+  "true_value": 78.0686,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-02"
+  "day": "2026-07-03"
 }
