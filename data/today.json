@@ -1,32 +1,28 @@
 {
   "interval": [
-    68.7015,
-    85.2318
+    90984.4857,
+    225680.2286
   ],
-  "sample_size": "18 states",
+  "sample_size": "14 states",
   "raw_data": [
-    86.7,
-    60.2,
-    81.7,
-    58.5,
-    25.5,
-    94.2,
-    78.7,
-    79.7,
-    83.6,
-    69.2,
-    87,
-    93.1,
-    69.1,
-    73.9,
-    86.9,
-    88.1,
-    76.8,
-    92.5
+    174395,
+    114057,
+    215111,
+    35402,
+    132163,
+    83696,
+    125079,
+    464592,
+    135382,
+    262650,
+    70438,
+    42418,
+    284554,
+    76716
   ],
-  "parameter_name": "average percent who identify as White per state in the U.S.",
-  "true_value": 78.0686,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-07-03"
+  "contained": false,
+  "day": "2026-07-04"
 }
