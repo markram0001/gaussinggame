@@ -1,34 +1,31 @@
 {
   "interval": [
-    5439886.5382,
-    23478353.0618
+    8.9721,
+    19.1456
   ],
-  "sample_size": "20 states",
+  "sample_size": "17 states",
   "raw_data": [
-    9763818,
-    17962356,
-    13617654,
-    2680225,
-    2045123,
-    7576462,
-    19673558,
-    9536706,
-    90830372,
-    4789281,
-    18976611,
-    14297278,
-    13076602,
-    1564272,
-    5468687,
-    2148437,
-    4873411,
-    12516782,
-    27481505,
-    10303256
+    17.2,
+    35.5,
+    6,
+    8.8,
+    30.4,
+    31.3,
+    9.7,
+    11.9,
+    23.2,
+    10.5,
+    11.5,
+    7.2,
+    7.5,
+    4.2,
+    11.4,
+    6.3,
+    6.4
   ],
-  "parameter_name": "average accommodation and food services sales in USD per state in the U.S.",
-  "true_value": 13885070.549,
+  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
+  "true_value": 14.9843,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-06"
+  "day": "2026-07-07"
 }
