@@ -1,31 +1,27 @@
 {
   "interval": [
-    8.9721,
-    19.1456
+    27971.4789,
+    110679.7519
   ],
-  "sample_size": "17 states",
+  "sample_size": "13 states",
   "raw_data": [
-    17.2,
-    35.5,
-    6,
-    8.8,
-    30.4,
-    31.3,
-    9.7,
-    11.9,
-    23.2,
-    10.5,
-    11.5,
-    7.2,
-    7.5,
-    4.2,
-    11.4,
-    6.3,
-    6.4
+    105234,
+    83233,
+    14707,
+    24423,
+    5777,
+    4339,
+    131512,
+    237242,
+    27258,
+    122653,
+    41456,
+    10592,
+    92807
   ],
-  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
-  "true_value": 14.9843,
+  "parameter_name": "average number of minority‑owned firms per state in the U.S.",
+  "true_value": 156032.1373,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-07-07"
+  "contained": false,
+  "day": "2026-07-08"
 }
