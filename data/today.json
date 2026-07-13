@@ -1,25 +1,31 @@
 {
   "interval": [
-    198152.1381,
-    669286.0437
+    141682.1447,
+    307795.3847
   ],
-  "sample_size": "11 states",
+  "sample_size": "17 states",
   "raw_data": [
-    491606,
-    131638,
-    251419,
-    550453,
-    68032,
-    929864,
-    114435,
-    1135017,
-    164089,
-    326693,
-    607664
+    117466,
+    57550,
+    36988,
+    549526,
+    116157,
+    373795,
+    54121,
+    380690,
+    488061,
+    65186,
+    365139,
+    267594,
+    197138,
+    167521,
+    321991,
+    96098,
+    165538
   ],
-  "parameter_name": "average total number of firms per state in the U.S.",
-  "true_value": 545254.902,
+  "parameter_name": "average number of veterans per state in the U.S.",
+  "true_value": 357457.2941,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-07-12"
+  "contained": false,
+  "day": "2026-07-13"
 }
