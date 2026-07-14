@@ -1,31 +1,26 @@
 {
   "interval": [
-    141682.1447,
-    307795.3847
+    83.5698,
+    87.3302
   ],
-  "sample_size": "17 states",
+  "sample_size": "12 states",
   "raw_data": [
-    117466,
-    57550,
-    36988,
-    549526,
-    116157,
-    373795,
-    54121,
-    380690,
-    488061,
-    65186,
-    365139,
-    267594,
-    197138,
-    167521,
-    321991,
-    96098,
-    165538
+    84.5,
+    89.8,
+    86.7,
+    82.2,
+    88.3,
+    80.5,
+    84.6,
+    84.7,
+    85.7,
+    86.9,
+    89.5,
+    82
   ],
-  "parameter_name": "average number of veterans per state in the U.S.",
-  "true_value": 357457.2941,
+  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
+  "true_value": 85.2353,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-07-13"
+  "contained": true,
+  "day": "2026-07-14"
 }
