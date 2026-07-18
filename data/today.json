@@ -1,19 +1,19 @@
 {
   "interval": [
-    -347242.1378,
-    3219881.7378
+    -111577.5215,
+    2341183.1215
   ],
   "sample_size": "5 states",
   "raw_data": [
-    759176,
-    284386,
-    1104394,
-    3935041,
-    1098602
+    336445,
+    502593,
+    416487,
+    2514301,
+    1804188
   ],
-  "parameter_name": "average number of households per state in the U.S.",
-  "true_value": 2367765.6471,
+  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
+  "true_value": 519324.1569,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-17"
+  "day": "2026-07-18"
 }
