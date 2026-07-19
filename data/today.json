@@ -1,19 +1,29 @@
 {
   "interval": [
-    -111577.5215,
-    2341183.1215
+    14.6883,
+    61.9091
   ],
-  "sample_size": "5 states",
+  "sample_size": "15 respondents",
   "raw_data": [
-    336445,
-    502593,
-    416487,
-    2514301,
-    1804188
+    61.4,
+    160,
+    26.4,
+    38.4,
+    48.8,
+    14.4,
+    14,
+    17.6,
+    29,
+    106,
+    11.38,
+    9.6,
+    8,
+    17.6,
+    11.9
   ],
-  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
-  "true_value": 519324.1569,
-  "source": "state_demographics.csv",
+  "parameter_name": "average grams of alcohol consumed the last time the respondent drank on a weekend day of 33294 people who took the European Social Survey in 2022",
+  "true_value": 45.7605,
+  "source": "ESS.csv",
   "contained": true,
-  "day": "2026-07-18"
+  "day": "2026-07-19"
 }
