@@ -1,39 +1,23 @@
 {
   "interval": [
-    48.3644,
-    65.6356
+    29648.2709,
+    43077.0624
   ],
-  "sample_size": "25 respondents",
+  "sample_size": "9 states",
   "raw_data": [
-    32,
-    65,
-    39,
-    90,
-    19,
-    70,
-    74,
-    82,
-    59,
-    69,
-    59,
-    69,
-    17,
-    80,
-    77,
-    32,
-    65,
-    50,
-    67,
-    36,
-    30,
-    47,
-    44,
-    74,
-    79
+    30694,
+    24369,
+    35567,
+    40003,
+    31552,
+    36955,
+    37625,
+    56147,
+    34352
   ],
-  "parameter_name": "average respondent's age in years of 49723 people who took the European Social Survey in 2022",
-  "true_value": 51.5937,
-  "source": "ESS.csv",
+  "parameter_name": "average per‑capita income in USD per state in the U.S.",
+  "true_value": 33743.0588,
+  "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-20"
+  "day": "2026-07-21"
 }
