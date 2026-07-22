@@ -1,23 +1,25 @@
 {
   "interval": [
-    29648.2709,
-    43077.0624
+    70.4636,
+    84.7909
   ],
-  "sample_size": "9 states",
+  "sample_size": "11 states",
   "raw_data": [
-    30694,
-    24369,
-    35567,
-    40003,
-    31552,
-    36955,
-    37625,
-    56147,
-    34352
+    73.9,
+    83.6,
+    93,
+    79,
+    71.9,
+    68.6,
+    88.1,
+    71.9,
+    70.6,
+    60.2,
+    93.1
   ],
-  "parameter_name": "average per‑capita income in USD per state in the U.S.",
-  "true_value": 33743.0588,
+  "parameter_name": "average percent who identify as White per state in the U.S.",
+  "true_value": 78.0686,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-21"
+  "day": "2026-07-22"
 }
