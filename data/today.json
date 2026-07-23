@@ -1,25 +1,19 @@
 {
   "interval": [
-    70.4636,
-    84.7909
+    -3.5339,
+    12.2139
   ],
-  "sample_size": "11 states",
+  "sample_size": "5 states",
   "raw_data": [
-    73.9,
-    83.6,
-    93,
-    79,
-    71.9,
-    68.6,
-    88.1,
-    71.9,
-    70.6,
-    60.2,
-    93.1
+    15.6,
+    1.7,
+    1,
+    2.7,
+    0.7
   ],
-  "parameter_name": "average percent who identify as White per state in the U.S.",
-  "true_value": 78.0686,
+  "parameter_name": "average percent who identify as American Indian or Alaska Native per state in the U.S.",
+  "true_value": 2.0059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-22"
+  "day": "2026-07-23"
 }
