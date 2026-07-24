@@ -1,19 +1,40 @@
 {
   "interval": [
-    -3.5339,
-    12.2139
+    29.529,
+    70.0894
   ],
-  "sample_size": "5 states",
+  "sample_size": "26 respondents",
   "raw_data": [
-    15.6,
-    1.7,
-    1,
-    2.7,
-    0.7
+    24,
+    48,
+    135.88,
+    48,
+    26,
+    45,
+    14,
+    67,
+    0,
+    116,
+    0,
+    9,
+    32,
+    48,
+    46.2,
+    82.96,
+    43.2,
+    10,
+    182,
+    12.8,
+    74,
+    9.6,
+    170,
+    20,
+    15.4,
+    16
   ],
-  "parameter_name": "average percent who identify as American Indian or Alaska Native per state in the U.S.",
-  "true_value": 2.0059,
-  "source": "state_demographics.csv",
+  "parameter_name": "average grams of alcohol consumed the last time the respondent drank on a weekend day of 33294 people who took the European Social Survey in 2022",
+  "true_value": 45.7605,
+  "source": "ESS.csv",
   "contained": true,
-  "day": "2026-07-23"
+  "day": "2026-07-24"
 }
