@@ -1,21 +1,28 @@
 {
   "interval": [
-    22.6574,
-    30.0569
+    10.1919,
+    13.5224
   ],
-  "sample_size": "7 states",
+  "sample_size": "14 states",
   "raw_data": [
-    24.8,
-    26.6,
-    21.9,
-    30.2,
-    23.9,
-    23.9,
-    33.2
+    10,
+    7.3,
+    13.6,
+    13.5,
+    12.5,
+    13.8,
+    10.2,
+    12,
+    13.9,
+    19,
+    9.2,
+    11.3,
+    9.3,
+    10.4
   ],
-  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
-  "true_value": 24.798,
+  "parameter_name": "average percent of persons below the poverty level per state in the U.S.",
+  "true_value": 12.1706,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-07-28"
+  "day": "2026-07-29"
 }
