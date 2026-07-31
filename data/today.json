@@ -1,28 +1,37 @@
 {
   "interval": [
-    83.3169,
-    85.8116
+    33.5628,
+    43.6546
   ],
-  "sample_size": "14 states",
+  "sample_size": "23 respondents",
   "raw_data": [
-    80.5,
-    84.8,
-    84.6,
-    83.2,
-    82.1,
-    85.2,
-    82.3,
-    86.9,
-    82.6,
-    87.9,
-    85.3,
-    87.3,
-    85.7,
-    85.5
+    30,
+    60,
+    40,
+    45,
+    35,
+    40,
+    45,
+    40,
+    37,
+    38,
+    60,
+    30,
+    6,
+    40,
+    45,
+    40,
+    39,
+    50,
+    42,
+    45,
+    36,
+    25,
+    20
   ],
-  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
-  "true_value": 85.2353,
-  "source": "state_demographics.csv",
+  "parameter_name": "average total weekly work hours (including overtime) of 41237 people who took the European Social Survey in 2022",
+  "true_value": 37.851,
+  "source": "ESS.csv",
   "contained": true,
-  "day": "2026-07-30"
+  "day": "2026-07-31"
 }
