@@ -1,23 +1,33 @@
 {
   "interval": [
-    21.7601,
-    28.8621
+    1044664.6068,
+    3303853.1827
   ],
-  "sample_size": "9 states",
+  "sample_size": "19 states",
   "raw_data": [
-    29.8,
-    28.7,
-    19.3,
-    23.9,
-    24.6,
-    17.2,
-    26.3,
-    27.2,
-    30.8
+    2928732,
+    9673682,
+    1808465,
+    280291,
+    443781,
+    1524992,
+    4378391,
+    339439,
+    851227,
+    751105,
+    2464164,
+    3075981,
+    1749464,
+    519935,
+    2477753,
+    1288401,
+    642315,
+    380173,
+    5732628
   ],
-  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
-  "true_value": 24.798,
+  "parameter_name": "average number of housing units per state in the U.S.",
+  "true_value": 2738906.7451,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-01"
+  "day": "2026-08-02"
 }
