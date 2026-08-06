@@ -1,21 +1,32 @@
 {
   "interval": [
-    8.5952,
-    15.719
+    208673.9257,
+    1079850.6298
   ],
-  "sample_size": "7 states",
+  "sample_size": "18 states",
   "raw_data": [
-    18.2,
-    10.2,
-    11.2,
-    9.4,
-    12.6,
-    16.2,
-    7.3
+    385074,
+    539987,
+    3453769,
+    209179,
+    336445,
+    787883,
+    246766,
+    491908,
+    802331,
+    62027,
+    222159,
+    632995,
+    2388050,
+    138728,
+    363971,
+    112589,
+    135986,
+    286874
   ],
-  "parameter_name": "average percent of persons below the poverty level per state in the U.S.",
-  "true_value": 12.1706,
+  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
+  "true_value": 519324.1569,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-05"
+  "day": "2026-08-06"
 }
