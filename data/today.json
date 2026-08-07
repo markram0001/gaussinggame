@@ -1,32 +1,22 @@
 {
   "interval": [
-    208673.9257,
-    1079850.6298
+    -40211.6154,
+    1042590.6154
   ],
-  "sample_size": "18 states",
+  "sample_size": "8 states",
   "raw_data": [
-    385074,
-    539987,
-    3453769,
-    209179,
-    336445,
-    787883,
-    246766,
-    491908,
-    802331,
-    62027,
-    222159,
-    632995,
-    2388050,
-    138728,
-    363971,
-    112589,
-    135986,
-    286874
+    125169,
+    55913,
+    245243,
+    174395,
+    1852580,
+    302249,
+    1139910,
+    114057
   ],
-  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
-  "true_value": 519324.1569,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-06"
+  "day": "2026-08-07"
 }
