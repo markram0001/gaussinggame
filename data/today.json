@@ -1,33 +1,33 @@
 {
   "interval": [
-    2.1026,
-    2.6764
+    15.3711,
+    17.3868
   ],
   "sample_size": "19 states",
   "raw_data": [
-    2.2,
-    1.8,
-    2.7,
-    2,
-    4,
-    1.8,
-    2.4,
-    3.2,
-    2.5,
-    2.5,
-    3.1,
-    2.2,
-    1.8,
-    2.1,
-    2.6,
-    1.8,
-    2,
-    1.8,
-    2.9
+    17.5,
+    12.5,
+    15.9,
+    17.4,
+    17.5,
+    16.1,
+    17.7,
+    20.9,
+    14.6,
+    15.9,
+    17.3,
+    17.2,
+    11.4,
+    17.7,
+    16.1,
+    15.9,
+    18.2,
+    16.6,
+    14.8
   ],
-  "parameter_name": "average percent identifying as two or more races per state in the U.S.",
-  "true_value": 3.1137,
+  "parameter_name": "average percent of residents age 65 and older per state in the U.S.",
+  "true_value": 16.8784,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-08-12"
+  "contained": true,
+  "day": "2026-08-13"
 }
