@@ -1,21 +1,34 @@
 {
   "interval": [
-    21.5408,
-    28.6306
+    32182.5305,
+    36880.8695
   ],
-  "sample_size": "7 states",
+  "sample_size": "20 states",
   "raw_data": [
-    21.9,
-    26.3,
-    25.7,
-    27.8,
-    18.3,
-    25.8,
-    29.8
+    38226,
+    37625,
+    32302,
+    36121,
+    38915,
+    36038,
+    28178,
+    36787,
+    36955,
+    34352,
+    33366,
+    43761,
+    29426,
+    35567,
+    24369,
+    44496,
+    31814,
+    31277,
+    28422,
+    32637
   ],
-  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
-  "true_value": 24.798,
+  "parameter_name": "average per‑capita income in USD per state in the U.S.",
+  "true_value": 33743.0588,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-15"
+  "day": "2026-08-16"
 }
