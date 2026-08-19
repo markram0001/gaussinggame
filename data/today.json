@@ -1,31 +1,22 @@
 {
   "interval": [
-    13095.54,
-    150172.6412
+    30563305.0793,
+    316676006.6707
   ],
-  "sample_size": "17 states",
+  "sample_size": "8 states",
   "raw_data": [
-    97093.14,
-    155779.22,
-    6422.63,
-    41234.9,
-    8952.65,
-    24038.21,
-    61.05,
-    66455.52,
-    82169.62,
-    113594.08,
-    44742.7,
-    79626.74,
-    570640.95,
-    7800.06,
-    9707.24,
-    48617.91,
-    30842.92
+    356116376,
+    251167736,
+    38234170,
+    481800461,
+    92915380,
+    110002385,
+    20444278,
+    38276461
   ],
-  "parameter_name": "average land area per state in the U.S.",
-  "true_value": 69253.0478,
+  "parameter_name": "average retail sales per state in the U.S.",
+  "true_value": 82741605.3137,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-18"
+  "day": "2026-08-19"
 }
