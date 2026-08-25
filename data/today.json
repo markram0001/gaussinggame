@@ -1,20 +1,24 @@
 {
   "interval": [
-    24.1999,
-    27.5335
+    5.0955,
+    16.1645
   ],
-  "sample_size": "6 states",
+  "sample_size": "10 states",
   "raw_data": [
-    27.8,
-    24.8,
-    24.8,
-    28,
-    24.6,
-    25.2
+    4.4,
+    26.4,
+    20.9,
+    13.4,
+    5.7,
+    9.8,
+    1.7,
+    10.6,
+    7.8,
+    5.6
   ],
-  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
-  "true_value": 24.798,
+  "parameter_name": "average percent who identify as Hispanic or Latino per state in the U.S.",
+  "true_value": 12.2471,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-24"
+  "day": "2026-08-25"
 }
