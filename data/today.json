@@ -1,24 +1,26 @@
 {
   "interval": [
-    5.0955,
-    16.1645
+    2.7976,
+    14.5357
   ],
-  "sample_size": "10 states",
+  "sample_size": "12 states",
   "raw_data": [
-    4.4,
-    26.4,
-    20.9,
-    13.4,
-    5.7,
-    9.8,
     1.7,
-    10.6,
-    7.8,
-    5.6
+    17.6,
+    2.3,
+    4.6,
+    5.2,
+    4.4,
+    32.6,
+    3.4,
+    1.8,
+    16.9,
+    7,
+    6.5
   ],
-  "parameter_name": "average percent who identify as Hispanic or Latino per state in the U.S.",
-  "true_value": 12.2471,
+  "parameter_name": "average percent who identify as Black per state in the U.S.",
+  "true_value": 11.8725,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-25"
+  "day": "2026-08-26"
 }
