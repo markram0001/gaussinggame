@@ -1,26 +1,23 @@
 {
   "interval": [
-    2.7976,
-    14.5357
+    1359964.3264,
+    135198573.6736
   ],
-  "sample_size": "12 states",
+  "sample_size": "9 states",
   "raw_data": [
-    1.7,
-    17.6,
-    2.3,
-    4.6,
-    5.2,
-    4.4,
-    32.6,
-    3.4,
-    1.8,
-    16.9,
-    7,
-    6.5
+    14719141,
+    116668830,
+    20201432,
+    51243473,
+    9315494,
+    108854971,
+    11535236,
+    271191050,
+    10783794
   ],
-  "parameter_name": "average percent who identify as Black per state in the U.S.",
-  "true_value": 11.8725,
+  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
+  "true_value": 111846402.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-26"
+  "day": "2026-08-27"
 }
