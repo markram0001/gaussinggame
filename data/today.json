@@ -1,23 +1,27 @@
 {
   "interval": [
-    1359964.3264,
-    135198573.6736
+    2.4326,
+    2.6936
   ],
-  "sample_size": "9 states",
+  "sample_size": "13 states",
   "raw_data": [
-    14719141,
-    116668830,
-    20201432,
-    51243473,
-    9315494,
-    108854971,
-    11535236,
-    271191050,
-    10783794
+    2.3,
+    2.63,
+    2.67,
+    2.45,
+    2.58,
+    2.32,
+    2.53,
+    2.51,
+    2.61,
+    3.12,
+    2.62,
+    2.3,
+    2.68
   ],
-  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
-  "true_value": 111846402.5098,
+  "parameter_name": "average persons per household per state in the U.S.",
+  "true_value": 2.5582,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-27"
+  "day": "2026-08-28"
 }
