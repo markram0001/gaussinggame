@@ -1,24 +1,21 @@
 {
   "interval": [
-    41956.5223,
-    1013890.4777
+    4.6842,
+    20.4015
   ],
-  "sample_size": "10 states",
+  "sample_size": "7 states",
   "raw_data": [
-    331546,
-    489494,
-    792088,
-    374153,
-    231959,
-    68270,
-    2356748,
-    139570,
-    432980,
-    62427
+    11.9,
+    16.9,
+    7.2,
+    7.5,
+    29.4,
+    4,
+    10.9
   ],
-  "parameter_name": "average total number of firms per state in the U.S.",
-  "true_value": 545254.902,
+  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
+  "true_value": 14.9843,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-29"
+  "day": "2026-08-30"
 }
