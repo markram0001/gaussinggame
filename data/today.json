@@ -1,24 +1,28 @@
 {
   "interval": [
-    -23383.3614,
-    531207.1614
+    64.8945,
+    68.6055
   ],
-  "sample_size": "10 states",
+  "sample_size": "14 states",
   "raw_data": [
-    59044,
-    162616,
-    187677,
-    376506,
-    1320085,
-    77194,
-    162798,
-    106011,
-    42067,
-    45121
+    66.3,
+    69.4,
+    71.2,
+    68.2,
+    68.8,
+    65.2,
+    66.1,
+    62.4,
+    71.1,
+    67.2,
+    69.1,
+    66.3,
+    60.8,
+    62.4
   ],
-  "parameter_name": "average number of women‑owned firms per state in the U.S.",
-  "true_value": 193842.1176,
+  "parameter_name": "average homeownership rate per state in the U.S.",
+  "true_value": 65.6725,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-08-31"
+  "day": "2026-09-01"
 }
