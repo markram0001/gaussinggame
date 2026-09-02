@@ -1,28 +1,30 @@
 {
   "interval": [
-    64.8945,
-    68.6055
+    111260.5244,
+    388191.4756
   ],
-  "sample_size": "14 states",
+  "sample_size": "16 states",
   "raw_data": [
-    66.3,
-    69.4,
-    71.2,
-    68.2,
-    68.8,
-    65.2,
-    66.1,
-    62.4,
-    71.1,
-    67.2,
-    69.1,
-    66.3,
-    60.8,
-    62.4
+    215111,
+    79243,
+    203604,
+    1084885,
+    135382,
+    54651,
+    276630,
+    284554,
+    60409,
+    30039,
+    236252,
+    464592,
+    446128,
+    262650,
+    123158,
+    38328
   ],
-  "parameter_name": "average homeownership rate per state in the U.S.",
-  "true_value": 65.6725,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-01"
+  "day": "2026-09-02"
 }
