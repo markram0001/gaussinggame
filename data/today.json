@@ -1,30 +1,21 @@
 {
   "interval": [
-    111260.5244,
-    388191.4756
+    4833117.7427,
+    20921630.2573
   ],
-  "sample_size": "16 states",
+  "sample_size": "7 states",
   "raw_data": [
-    215111,
-    79243,
-    203604,
-    1084885,
-    135382,
-    54651,
-    276630,
-    284554,
-    60409,
-    30039,
-    236252,
-    464592,
-    446128,
-    262650,
-    123158,
-    38328
+    8466788,
+    7121153,
+    11697949,
+    1644844,
+    13076602,
+    27481505,
+    20652777
   ],
-  "parameter_name": "average number of men‑owned firms per state in the U.S.",
-  "true_value": 292380.098,
+  "parameter_name": "average accommodation and food services sales in USD per state in the U.S.",
+  "true_value": 13885070.549,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-02"
+  "day": "2026-09-03"
 }
