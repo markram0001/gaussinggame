@@ -1,21 +1,27 @@
 {
   "interval": [
-    4833117.7427,
-    20921630.2573
+    21.5459,
+    23.3002
   ],
-  "sample_size": "7 states",
+  "sample_size": "13 states",
   "raw_data": [
-    8466788,
-    7121153,
-    11697949,
-    1644844,
-    13076602,
-    27481505,
-    20652777
+    22.5,
+    20.4,
+    20.1,
+    23.6,
+    22.3,
+    22.1,
+    23.2,
+    22.4,
+    20.7,
+    22.7,
+    23.5,
+    22.5,
+    25.5
   ],
-  "parameter_name": "average accommodation and food services sales in USD per state in the U.S.",
-  "true_value": 13885070.549,
+  "parameter_name": "average percent of residents under age 18 per state in the U.S.",
+  "true_value": 22.1392,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-03"
+  "day": "2026-09-04"
 }
