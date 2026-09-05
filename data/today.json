@@ -1,27 +1,29 @@
 {
   "interval": [
-    21.5459,
-    23.3002
+    27.713,
+    32.847
   ],
-  "sample_size": "13 states",
+  "sample_size": "15 states",
   "raw_data": [
-    22.5,
-    20.4,
-    20.1,
-    23.6,
-    22.3,
-    22.1,
-    23.2,
-    22.4,
-    20.7,
-    22.7,
-    23.5,
-    22.5,
-    25.5
+    24.7,
+    34.2,
+    31.3,
+    23,
+    26.5,
+    28.1,
+    27.6,
+    33.9,
+    36.1,
+    36,
+    25.5,
+    27.3,
+    30,
+    32,
+    38
   ],
-  "parameter_name": "average percent of residents under age 18 per state in the U.S.",
-  "true_value": 22.1392,
+  "parameter_name": "average percent with a bachelor’s degree or higher per state in the U.S.",
+  "true_value": 31.7686,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-04"
+  "day": "2026-09-05"
 }
