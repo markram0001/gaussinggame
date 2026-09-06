@@ -1,29 +1,31 @@
 {
   "interval": [
-    27.713,
-    32.847
+    929343.9252,
+    4693771.1336
   ],
-  "sample_size": "15 states",
+  "sample_size": "17 states",
   "raw_data": [
-    24.7,
-    34.2,
-    31.3,
-    23,
-    26.5,
-    28.1,
-    27.6,
-    33.9,
-    36.1,
-    36,
-    25.5,
-    27.3,
-    30,
-    32,
-    38
+    2284847,
+    2351286,
+    2470316,
+    2464164,
+    14366336,
+    280291,
+    8404381,
+    5732628,
+    443781,
+    3028213,
+    1524992,
+    339439,
+    1133521,
+    1339021,
+    851227,
+    380173,
+    401862
   ],
-  "parameter_name": "average percent with a bachelor’s degree or higher per state in the U.S.",
-  "true_value": 31.7686,
+  "parameter_name": "average number of housing units per state in the U.S.",
+  "true_value": 2738906.7451,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-05"
+  "day": "2026-09-06"
 }
