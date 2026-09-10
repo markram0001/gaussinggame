@@ -1,22 +1,30 @@
 {
   "interval": [
-    2.4313,
-    18.5187
+    38.0125,
+    42.2375
   ],
-  "sample_size": "8 states",
+  "sample_size": "16 respondents",
   "raw_data": [
-    7.1,
-    3.6,
-    1.7,
-    26.8,
-    3.5,
-    20.7,
-    3.4,
-    17
+    40,
+    40,
+    40,
+    30,
+    40,
+    40,
+    38,
+    38,
+    40,
+    40,
+    40,
+    48,
+    40,
+    40,
+    48,
+    40
   ],
-  "parameter_name": "average percent foreign‑born per state in the U.S.",
-  "true_value": 9.4059,
-  "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-09-09"
+  "parameter_name": "average contracted weekly work hours (excluding overtime) of 39266 people who took the European Social Survey in 2022",
+  "true_value": 36.9203,
+  "source": "ESS.csv",
+  "contained": false,
+  "day": "2026-09-10"
 }
