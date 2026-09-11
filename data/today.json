@@ -1,30 +1,23 @@
 {
   "interval": [
-    38.0125,
-    42.2375
+    70.1156,
+    86.2177
   ],
-  "sample_size": "16 respondents",
+  "sample_size": "9 states",
   "raw_data": [
-    40,
-    40,
-    40,
-    30,
-    40,
-    40,
-    38,
-    38,
-    40,
-    40,
-    40,
-    48,
-    40,
-    40,
-    48,
-    40
+    86.7,
+    87,
+    93.5,
+    69.1,
+    78.4,
+    69.6,
+    77.3,
+    81.7,
+    60.2
   ],
-  "parameter_name": "average contracted weekly work hours (excluding overtime) of 39266 people who took the European Social Survey in 2022",
-  "true_value": 36.9203,
-  "source": "ESS.csv",
-  "contained": false,
-  "day": "2026-09-10"
+  "parameter_name": "average percent who identify as White per state in the U.S.",
+  "true_value": 78.0686,
+  "source": "state_demographics.csv",
+  "contained": true,
+  "day": "2026-09-11"
 }
