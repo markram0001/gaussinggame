@@ -1,23 +1,23 @@
 {
   "interval": [
-    70.1156,
-    86.2177
+    86.9647,
+    90.5464
   ],
   "sample_size": "9 states",
   "raw_data": [
-    86.7,
-    87,
-    93.5,
-    69.1,
-    78.4,
-    69.6,
-    77.3,
-    81.7,
-    60.2
+    89.4,
+    86.2,
+    91,
+    89,
+    88.9,
+    85.5,
+    87.1,
+    93,
+    88.7
   ],
-  "parameter_name": "average percent who identify as White per state in the U.S.",
-  "true_value": 78.0686,
+  "parameter_name": "average percent of households with a computer per state in the U.S.",
+  "true_value": 89.9765,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-11"
+  "day": "2026-09-12"
 }
