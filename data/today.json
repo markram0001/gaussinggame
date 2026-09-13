@@ -1,23 +1,24 @@
 {
   "interval": [
-    86.9647,
-    90.5464
+    -8406.1341,
+    496972.1341
   ],
-  "sample_size": "9 states",
+  "sample_size": "10 states",
   "raw_data": [
-    89.4,
-    86.2,
-    91,
-    89,
-    88.9,
-    85.5,
-    87.1,
-    93,
-    88.7
+    38328,
+    579400,
+    1139910,
+    63112,
+    76716,
+    79243,
+    187845,
+    123158,
+    125079,
+    30039
   ],
-  "parameter_name": "average percent of households with a computer per state in the U.S.",
-  "true_value": 89.9765,
+  "parameter_name": "average number of men‑owned firms per state in the U.S.",
+  "true_value": 292380.098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-12"
+  "day": "2026-09-13"
 }
