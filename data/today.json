@@ -1,24 +1,19 @@
 {
   "interval": [
-    6.4824,
-    10.1176
+    -1826564.5575,
+    24314700.5575
   ],
-  "sample_size": "10 states",
+  "sample_size": "5 states",
   "raw_data": [
-    7.6,
-    6.9,
-    6.8,
-    6.1,
-    7,
-    7.7,
-    6,
-    10.8,
-    10.2,
-    13.9
+    1455271,
+    6910840,
+    8631393,
+    10077331,
+    29145505
   ],
-  "parameter_name": "average percent under age 65 without health insurance per state in the U.S.",
-  "true_value": 9.9588,
+  "parameter_name": "average 2014 population per state in the U.S.",
+  "true_value": 6499005.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-15"
+  "day": "2026-09-16"
 }
