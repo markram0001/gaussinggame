@@ -1,21 +1,23 @@
 {
   "interval": [
-    -295007.5848,
-    1973561.5848
+    22.3252,
+    25.6748
   ],
-  "sample_size": "7 states",
+  "sample_size": "9 states",
   "raw_data": [
-    929864,
-    3548449,
-    146642,
-    432980,
-    339305,
-    414291,
-    63408
+    21.9,
+    21.1,
+    23.7,
+    23.8,
+    23.9,
+    27.2,
+    26.6,
+    25.9,
+    21.9
   ],
-  "parameter_name": "average total number of firms per state in the U.S.",
-  "true_value": 545254.902,
+  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
+  "true_value": 24.798,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-17"
+  "day": "2026-09-18"
 }
