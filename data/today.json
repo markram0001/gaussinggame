@@ -1,23 +1,29 @@
 {
   "interval": [
-    22.3252,
-    25.6748
+    87.8449,
+    91.1685
   ],
-  "sample_size": "9 states",
+  "sample_size": "15 states",
   "raw_data": [
-    21.9,
-    21.1,
-    23.7,
-    23.8,
-    23.9,
-    27.2,
-    26.6,
-    25.9,
-    21.9
+    93,
+    89.4,
+    85.6,
+    85.9,
+    88.9,
+    89.1,
+    95.3,
+    92.4,
+    89.8,
+    91.5,
+    91.7,
+    89,
+    89.7,
+    84.2,
+    87.1
   ],
-  "parameter_name": "average mean travel time to work in minutes per state in the U.S.",
-  "true_value": 24.798,
+  "parameter_name": "average percent of households with a computer per state in the U.S.",
+  "true_value": 89.9765,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-18"
+  "day": "2026-09-19"
 }
