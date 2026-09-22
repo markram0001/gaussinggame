@@ -1,20 +1,28 @@
 {
   "interval": [
-    -5234463.6367,
-    26219786.9701
+    102891.138,
+    219618.5763
   ],
-  "sample_size": "6 states",
+  "sample_size": "14 states",
   "raw_data": [
-    672591,
-    4339367,
-    710231,
-    37253956,
-    601723,
-    19378102
+    106011,
+    133859,
+    20316,
+    195694,
+    306986,
+    77194,
+    151114,
+    304803,
+    194508,
+    162616,
+    19344,
+    287058,
+    252944,
+    45121
   ],
-  "parameter_name": "average 2010 population per state in the U.S.",
-  "true_value": 6053834.0784,
+  "parameter_name": "average number of women‑owned firms per state in the U.S.",
+  "true_value": 193842.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-21"
+  "day": "2026-09-22"
 }
