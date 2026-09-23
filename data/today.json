@@ -1,28 +1,25 @@
 {
   "interval": [
-    102891.138,
-    219618.5763
+    8.8535,
+    15.801
   ],
-  "sample_size": "14 states",
+  "sample_size": "11 states",
   "raw_data": [
-    106011,
-    133859,
-    20316,
-    195694,
-    306986,
-    77194,
-    151114,
-    304803,
-    194508,
-    162616,
-    19344,
-    287058,
-    252944,
-    45121
+    11.9,
+    11.9,
+    16.9,
+    17.2,
+    11.5,
+    4.2,
+    9.7,
+    7.2,
+    11.4,
+    10.5,
+    23.2
   ],
-  "parameter_name": "average number of women‑owned firms per state in the U.S.",
-  "true_value": 193842.1176,
+  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
+  "true_value": 14.9843,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-22"
+  "day": "2026-09-23"
 }
