@@ -1,25 +1,29 @@
 {
   "interval": [
-    8.8535,
-    15.801
+    50.0775,
+    50.9359
   ],
-  "sample_size": "11 states",
+  "sample_size": "15 states",
   "raw_data": [
-    11.9,
-    11.9,
-    16.9,
-    17.2,
-    11.5,
-    4.2,
-    9.7,
-    7.2,
-    11.4,
-    10.5,
-    23.2
+    49.6,
+    50,
+    50.2,
+    50.3,
+    50.9,
+    51.3,
+    50.2,
+    49.8,
+    50.6,
+    51.7,
+    51.7,
+    51.2,
+    49.1,
+    51,
+    50
   ],
-  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
-  "true_value": 14.9843,
+  "parameter_name": "average percent female per state in the U.S.",
+  "true_value": 50.598,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-23"
+  "day": "2026-09-24"
 }
