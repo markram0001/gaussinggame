@@ -1,29 +1,19 @@
 {
   "interval": [
-    50.0775,
-    50.9359
+    18.1134,
+    25.0866
   ],
-  "sample_size": "15 states",
+  "sample_size": "5 states",
   "raw_data": [
-    49.6,
-    50,
-    50.2,
-    50.3,
-    50.9,
-    51.3,
-    50.2,
-    49.8,
-    50.6,
-    51.7,
-    51.7,
-    51.2,
-    49.1,
-    51,
-    50
+    18.2,
+    20.6,
+    25.5,
+    20.5,
+    23.2
   ],
-  "parameter_name": "average percent female per state in the U.S.",
-  "true_value": 50.598,
+  "parameter_name": "average percent of residents under age 18 per state in the U.S.",
+  "true_value": 22.1392,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-24"
+  "day": "2026-09-25"
 }
