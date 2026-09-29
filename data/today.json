@@ -1,20 +1,28 @@
 {
   "interval": [
-    -77959.4403,
-    1294165.107
+    21864.5233,
+    96310.8482
   ],
-  "sample_size": "6 states",
+  "sample_size": "14 states",
   "raw_data": [
-    54217,
-    733517,
-    1846686,
-    461401,
-    415542,
-    137254
+    82643.12,
+    261231.71,
+    44742.7,
+    61.05,
+    9216.66,
+    30842.92,
+    30060.7,
+    68594.92,
+    75811,
+    7800.06,
+    54157.8,
+    82169.62,
+    24038.21,
+    55857.13
   ],
-  "parameter_name": "average number of non‑veteran‑owned firms per state in the U.S.",
-  "true_value": 473326,
+  "parameter_name": "average land area per state in the U.S.",
+  "true_value": 69253.0478,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-09-28"
+  "day": "2026-09-29"
 }
