@@ -1,29 +1,24 @@
 {
   "interval": [
-    0.0922,
-    0.2412
+    29674.7739,
+    130143.6841
   ],
-  "sample_size": "15 states",
+  "sample_size": "10 states",
   "raw_data": [
-    0.1,
-    0.1,
-    0.1,
-    0.4,
-    0,
-    0.1,
-    0.1,
-    0.1,
-    0.1,
-    0.2,
-    0.1,
-    0.2,
-    0.5,
-    0.3,
-    0.1
+    69000.8,
+    53624.76,
+    81758.72,
+    261231.71,
+    57513.49,
+    79626.74,
+    61.05,
+    68594.92,
+    103641.89,
+    24038.21
   ],
-  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
-  "true_value": 0.398,
+  "parameter_name": "average land area per state in the U.S.",
+  "true_value": 69253.0478,
   "source": "state_demographics.csv",
-  "contained": false,
-  "day": "2026-10-01"
+  "contained": true,
+  "day": "2026-10-02"
 }
