@@ -1,24 +1,32 @@
 {
   "interval": [
-    29674.7739,
-    130143.6841
+    56779.1326,
+    67031.7563
   ],
-  "sample_size": "10 states",
+  "sample_size": "18 states",
   "raw_data": [
-    69000.8,
-    53624.76,
-    81758.72,
-    261231.71,
-    57513.49,
-    79626.74,
-    61.05,
-    68594.92,
-    103641.89,
-    24038.21
+    75235,
+    55461,
+    61439,
+    61874,
+    64894,
+    61973,
+    53320,
+    81215,
+    45081,
+    59597,
+    65886,
+    50536,
+    76768,
+    73775,
+    50589,
+    58700,
+    49469,
+    68486
   ],
-  "parameter_name": "average land area per state in the U.S.",
-  "true_value": 69253.0478,
+  "parameter_name": "average median household income in USD per state in the U.S.",
+  "true_value": 63097.8627,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-02"
+  "day": "2026-10-03"
 }
