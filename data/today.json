@@ -1,32 +1,31 @@
 {
   "interval": [
-    56779.1326,
-    67031.7563
+    0.9369,
+    4.0866
   ],
-  "sample_size": "18 states",
+  "sample_size": "17 states",
   "raw_data": [
-    75235,
-    55461,
-    61439,
-    61874,
-    64894,
-    61973,
-    53320,
-    81215,
-    45081,
-    59597,
-    65886,
-    50536,
-    76768,
-    73775,
-    50589,
-    58700,
-    49469,
-    68486
+    9.4,
+    0.3,
+    5.3,
+    0.7,
+    1.7,
+    0.7,
+    1,
+    0.5,
+    9,
+    1.2,
+    1.9,
+    6.7,
+    0.4,
+    0.5,
+    0.6,
+    1.2,
+    1.6
   ],
-  "parameter_name": "average median household income in USD per state in the U.S.",
-  "true_value": 63097.8627,
+  "parameter_name": "average percent who identify as American Indian or Alaska Native per state in the U.S.",
+  "true_value": 2.0059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-03"
+  "day": "2026-10-04"
 }
