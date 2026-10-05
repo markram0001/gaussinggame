@@ -1,31 +1,22 @@
 {
   "interval": [
-    0.9369,
-    4.0866
+    4.7907,
+    13.3343
   ],
-  "sample_size": "17 states",
+  "sample_size": "8 states",
   "raw_data": [
-    9.4,
-    0.3,
+    7.8,
+    19.4,
     5.3,
-    0.7,
-    1.7,
-    0.7,
-    1,
-    0.5,
-    9,
-    1.2,
-    1.9,
-    6.7,
-    0.4,
-    0.5,
-    0.6,
-    1.2,
-    1.6
+    9.4,
+    7.1,
+    5,
+    13.7,
+    4.8
   ],
-  "parameter_name": "average percent who identify as American Indian or Alaska Native per state in the U.S.",
-  "true_value": 2.0059,
+  "parameter_name": "average percent foreign‑born per state in the U.S.",
+  "true_value": 9.4059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-04"
+  "day": "2026-10-05"
 }
