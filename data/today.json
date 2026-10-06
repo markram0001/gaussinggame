@@ -1,22 +1,21 @@
 {
   "interval": [
-    4.7907,
-    13.3343
+    276944.7329,
+    1421404.9814
   ],
-  "sample_size": "8 states",
+  "sample_size": "7 states",
   "raw_data": [
-    7.8,
-    19.4,
-    5.3,
-    9.4,
-    7.1,
-    5,
-    13.7,
-    4.8
+    1819107,
+    1248304,
+    499959,
+    189029,
+    144122,
+    818858,
+    1224845
   ],
-  "parameter_name": "average percent foreign‑born per state in the U.S.",
-  "true_value": 9.4059,
+  "parameter_name": "average number of non‑minority‑owned firms per state in the U.S.",
+  "true_value": 373752.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-05"
+  "day": "2026-10-06"
 }
