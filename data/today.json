@@ -1,21 +1,27 @@
 {
   "interval": [
-    276944.7329,
-    1421404.9814
+    106124.5156,
+    659996.869
   ],
-  "sample_size": "7 states",
+  "sample_size": "13 states",
   "raw_data": [
-    1819107,
-    1248304,
-    499959,
+    130973,
+    415972,
+    55397,
+    51147,
     189029,
-    144122,
-    818858,
-    1224845
+    379934,
+    272651,
+    102746,
+    450109,
+    538893,
+    277676,
+    1819107,
+    296155
   ],
   "parameter_name": "average number of non‑minority‑owned firms per state in the U.S.",
   "true_value": 373752.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-06"
+  "day": "2026-10-07"
 }
