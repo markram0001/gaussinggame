@@ -1,27 +1,28 @@
 {
   "interval": [
-    106124.5156,
-    659996.869
+    47.7754,
+    436.796
   ],
-  "sample_size": "13 states",
+  "sample_size": "14 states",
   "raw_data": [
-    130973,
-    415972,
-    55397,
-    51147,
-    189029,
-    379934,
-    272651,
-    102746,
-    450109,
-    538893,
-    277676,
-    1819107,
-    296155
+    231.1,
+    168.4,
+    738.1,
+    34.9,
+    9.7,
+    239.1,
+    23.8,
+    10.7,
+    211.8,
+    56.3,
+    105,
+    1195.5,
+    17,
+    350.6
   ],
-  "parameter_name": "average number of non‑minority‑owned firms per state in the U.S.",
-  "true_value": 373752.1176,
+  "parameter_name": "average population density per state in the U.S.",
+  "true_value": 384.4039,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-07"
+  "day": "2026-10-08"
 }
