@@ -1,28 +1,33 @@
 {
   "interval": [
-    47.7754,
-    436.796
+    8.0728,
+    9.8535
   ],
-  "sample_size": "14 states",
+  "sample_size": "19 states",
   "raw_data": [
-    231.1,
-    168.4,
-    738.1,
-    34.9,
+    7.9,
+    7.8,
+    8.1,
     9.7,
-    239.1,
-    23.8,
-    10.7,
-    211.8,
-    56.3,
-    105,
-    1195.5,
-    17,
-    350.6
+    9.2,
+    7.5,
+    8.5,
+    11.6,
+    8.6,
+    11.1,
+    7.2,
+    7.9,
+    14,
+    6.7,
+    9.8,
+    6.8,
+    10.5,
+    9.4,
+    8
   ],
-  "parameter_name": "average population density per state in the U.S.",
-  "true_value": 384.4039,
+  "parameter_name": "average percent under age 66 with a disability per state in the U.S.",
+  "true_value": 9.1627,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-08"
+  "day": "2026-10-09"
 }
