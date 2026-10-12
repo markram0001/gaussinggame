@@ -1,26 +1,38 @@
 {
   "interval": [
-    1693450.7603,
-    4582561.573
+    72.5575,
+    86.7759
   ],
-  "sample_size": "12 states",
+  "sample_size": "24 respondents",
   "raw_data": [
-    9673682,
-    2921032,
-    1418626,
-    2464164,
-    3641812,
-    1749464,
-    2477753,
-    2819383,
-    3075981,
-    750939,
-    4378391,
-    2284847
+    94,
+    67,
+    76,
+    60,
+    75,
+    98,
+    50,
+    90,
+    65,
+    60,
+    90,
+    103,
+    77,
+    68,
+    85,
+    82,
+    58,
+    115,
+    110,
+    73,
+    75,
+    93,
+    70,
+    78
   ],
-  "parameter_name": "average number of housing units per state in the U.S.",
-  "true_value": 2738906.7451,
-  "source": "state_demographics.csv",
+  "parameter_name": "average respondent's weight in kilograms of 47440 people who took the European Social Survey in 2022",
+  "true_value": 75.7671,
+  "source": "ESS.csv",
   "contained": true,
-  "day": "2026-10-11"
+  "day": "2026-10-12"
 }
