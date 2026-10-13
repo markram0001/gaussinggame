@@ -1,38 +1,24 @@
 {
   "interval": [
-    72.5575,
-    86.7759
+    5.7421,
+    6.7979
   ],
-  "sample_size": "24 respondents",
+  "sample_size": "10 states",
   "raw_data": [
-    94,
-    67,
-    76,
-    60,
-    75,
-    98,
-    50,
-    90,
-    65,
-    60,
-    90,
-    103,
-    77,
-    68,
-    85,
-    82,
-    58,
-    115,
-    110,
-    73,
-    75,
-    93,
-    70,
-    78
+    6.2,
+    5.8,
+    7.7,
+    6,
+    7,
+    6.5,
+    5.8,
+    5.2,
+    5.7,
+    6.8
   ],
-  "parameter_name": "average respondent's weight in kilograms of 47440 people who took the European Social Survey in 2022",
-  "true_value": 75.7671,
-  "source": "ESS.csv",
+  "parameter_name": "average percent of residents under age 5 per state in the U.S.",
+  "true_value": 5.9588,
+  "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-12"
+  "day": "2026-10-13"
 }
