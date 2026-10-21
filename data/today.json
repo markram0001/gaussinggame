@@ -1,23 +1,23 @@
 {
   "interval": [
-    20.5541,
-    23.0015
+    15.8061,
+    17.6161
   ],
   "sample_size": "9 states",
   "raw_data": [
-    20.7,
-    21.2,
-    22.2,
-    19.3,
-    22.2,
-    24.6,
-    20.4,
-    22.1,
-    23.3
+    16.2,
+    16.9,
+    16.1,
+    18,
+    14.6,
+    15.7,
+    18.2,
+    17,
+    17.7
   ],
-  "parameter_name": "average percent of residents under age 18 per state in the U.S.",
-  "true_value": 22.1392,
+  "parameter_name": "average percent of residents age 65 and older per state in the U.S.",
+  "true_value": 16.8784,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-20"
+  "day": "2026-10-21"
 }
