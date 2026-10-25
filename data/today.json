@@ -1,24 +1,33 @@
 {
   "interval": [
-    15.5994,
-    18.7606
+    56678782.9911,
+    171041527.3247
   ],
-  "sample_size": "10 states",
+  "sample_size": "19 states",
   "raw_data": [
-    20.5,
-    18.2,
-    16.3,
-    12.4,
-    16.2,
-    17.7,
-    18.7,
-    16.1,
-    16.7,
-    19
+    99160840,
+    74295394,
+    50447098,
+    86076260,
+    148879931,
+    131530601,
+    57499177,
+    512303164,
+    177728926,
+    66441608,
+    16882647,
+    9315494,
+    271191050,
+    155836792,
+    129284438,
+    309832,
+    124809759,
+    -11,
+    51349948
   ],
-  "parameter_name": "average percent of residents age 65 and older per state in the U.S.",
-  "true_value": 16.8784,
+  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
+  "true_value": 111846402.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-24"
+  "day": "2026-10-25"
 }
