@@ -1,23 +1,23 @@
 {
   "interval": [
-    7.7287,
-    26.4269
+    11539.3323,
+    137721.1122
   ],
   "sample_size": "9 states",
   "raw_data": [
-    44.2,
-    7.4,
-    8,
-    26.6,
-    16.1,
-    10.5,
-    5.8,
-    15.4,
-    19.7
+    7206,
+    16119,
+    45582,
+    213590,
+    5070,
+    11486,
+    137532,
+    49331,
+    185756
   ],
-  "parameter_name": "average percent speaking a non‑English language at home per state in the U.S.",
-  "true_value": 14.9843,
+  "parameter_name": "average number of veteran‑owned firms per state in the U.S.",
+  "true_value": 49611.8824,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-26"
+  "day": "2026-10-27"
 }
