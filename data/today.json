@@ -1,23 +1,27 @@
 {
   "interval": [
-    11539.3323,
-    137721.1122
+    44517461.8425,
+    97835963.5421
   ],
-  "sample_size": "9 states",
+  "sample_size": "13 states",
   "raw_data": [
-    7206,
-    16119,
-    45582,
-    213590,
-    5070,
-    11486,
-    137532,
-    49331,
-    185756
+    38234170,
+    91641605,
+    38276461,
+    61396364,
+    30470717,
+    110002385,
+    51632467,
+    178794945,
+    21521714,
+    50256231,
+    54869978,
+    78898182,
+    119302046
   ],
-  "parameter_name": "average number of veteran‑owned firms per state in the U.S.",
-  "true_value": 49611.8824,
+  "parameter_name": "average retail sales per state in the U.S.",
+  "true_value": 82741605.3137,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-27"
+  "day": "2026-10-28"
 }
