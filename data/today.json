@@ -1,27 +1,27 @@
 {
   "interval": [
-    44517461.8425,
-    97835963.5421
+    -0.6022,
+    4.4022
   ],
   "sample_size": "13 states",
   "raw_data": [
-    38234170,
-    91641605,
-    38276461,
-    61396364,
-    30470717,
-    110002385,
-    51632467,
-    178794945,
-    21521714,
-    50256231,
-    54869978,
-    78898182,
-    119302046
+    0.6,
+    0.8,
+    15.6,
+    0.7,
+    0.4,
+    1.7,
+    0.5,
+    0.4,
+    0.5,
+    0.5,
+    0.3,
+    1.6,
+    1.1
   ],
-  "parameter_name": "average retail sales per state in the U.S.",
-  "true_value": 82741605.3137,
+  "parameter_name": "average percent who identify as American Indian or Alaska Native per state in the U.S.",
+  "true_value": 2.0059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-28"
+  "day": "2026-10-29"
 }
