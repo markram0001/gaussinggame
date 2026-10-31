@@ -1,24 +1,28 @@
 {
   "interval": [
-    28526.5797,
-    128355.2403
+    21.1594,
+    23.0549
   ],
-  "sample_size": "10 states",
+  "sample_size": "14 states",
   "raw_data": [
-    1033.81,
-    103641.89,
-    46923.27,
-    79626.74,
-    261231.71,
-    75811,
-    50645.33,
-    41234.9,
-    68741.52,
-    55518.93
+    22.5,
+    21.8,
+    22.1,
+    22.5,
+    19.6,
+    21.6,
+    21.9,
+    23.6,
+    21.2,
+    25.5,
+    20.4,
+    24.1,
+    23,
+    19.7
   ],
-  "parameter_name": "average land area per state in the U.S.",
-  "true_value": 69253.0478,
+  "parameter_name": "average percent of residents under age 18 per state in the U.S.",
+  "true_value": 22.1392,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-30"
+  "day": "2026-10-31"
 }
