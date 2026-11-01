@@ -1,28 +1,29 @@
 {
   "interval": [
-    21.1594,
-    23.0549
+    34237506.3483,
+    142636338.3184
   ],
-  "sample_size": "14 states",
+  "sample_size": "15 states",
   "raw_data": [
-    22.5,
-    21.8,
-    22.1,
-    22.5,
-    19.6,
-    21.6,
-    21.9,
-    23.6,
-    21.2,
-    25.5,
-    20.4,
-    24.1,
-    23,
-    19.7
+    44905624,
+    118924049,
+    90546581,
+    51632467,
+    54869978,
+    273867145,
+    58093824,
+    25179274,
+    91641605,
+    37053190,
+    67815200,
+    26018201,
+    9446043,
+    356116376,
+    20444278
   ],
-  "parameter_name": "average percent of residents under age 18 per state in the U.S.",
-  "true_value": 22.1392,
+  "parameter_name": "average retail sales per state in the U.S.",
+  "true_value": 82741605.3137,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-10-31"
+  "day": "2026-11-01"
 }
