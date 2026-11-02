@@ -1,29 +1,25 @@
 {
   "interval": [
-    34237506.3483,
-    142636338.3184
+    83.4533,
+    86.8558
   ],
-  "sample_size": "15 states",
+  "sample_size": "11 states",
   "raw_data": [
-    44905624,
-    118924049,
-    90546581,
-    51632467,
-    54869978,
-    273867145,
-    58093824,
-    25179274,
-    91641605,
-    37053190,
-    67815200,
-    26018201,
-    9446043,
-    356116376,
-    20444278
+    82.1,
+    84.5,
+    89.5,
+    86.7,
+    87.4,
+    84.9,
+    83.2,
+    82.3,
+    86.3,
+    82.2,
+    87.6
   ],
-  "parameter_name": "average retail sales per state in the U.S.",
-  "true_value": 82741605.3137,
+  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
+  "true_value": 85.2353,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-01"
+  "day": "2026-11-02"
 }
