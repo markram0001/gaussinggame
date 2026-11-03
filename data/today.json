@@ -1,25 +1,21 @@
 {
   "interval": [
-    83.4533,
-    86.8558
+    25246948.6142,
+    153797622.2429
   ],
-  "sample_size": "11 states",
+  "sample_size": "7 states",
   "raw_data": [
-    82.1,
-    84.5,
-    89.5,
-    86.7,
-    87.4,
-    84.9,
-    83.2,
-    82.3,
-    86.3,
-    82.2,
-    87.6
+    231396178,
+    22597384,
+    51349948,
+    57499177,
+    123076309,
+    66441608,
+    74295394
   ],
-  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
-  "true_value": 85.2353,
+  "parameter_name": "average manufacturers’ shipments per state in the U.S.",
+  "true_value": 111846402.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-02"
+  "day": "2026-11-03"
 }
