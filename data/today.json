@@ -1,23 +1,35 @@
 {
   "interval": [
-    84.1363,
-    86.486
+    62.684,
+    280.935
   ],
-  "sample_size": "9 states",
+  "sample_size": "21 respondents",
   "raw_data": [
-    84.4,
-    85.3,
-    84.9,
-    86.7,
-    85.9,
-    86.3,
-    87.3,
-    82.1,
-    84.9
+    60,
+    300,
+    90,
+    300,
+    80,
+    30,
+    0,
+    150,
+    60,
+    778,
+    0,
+    60,
+    905,
+    90,
+    90,
+    30,
+    240,
+    45,
+    60,
+    180,
+    60
   ],
-  "parameter_name": "average percent living in the same house for 1+ years per state in the U.S.",
-  "true_value": 85.2353,
-  "source": "state_demographics.csv",
+  "parameter_name": "average number of minutes per day spent following political news of 49384 people who took the European Social Survey in 2022",
+  "true_value": 97.8963,
+  "source": "ESS.csv",
   "contained": true,
-  "day": "2026-11-06"
+  "day": "2026-11-07"
 }
