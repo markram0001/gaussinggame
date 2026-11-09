@@ -1,19 +1,23 @@
 {
   "interval": [
-    39.314,
-    106.286
+    6.3059,
+    9.6941
   ],
-  "sample_size": "5 states",
+  "sample_size": "9 states",
   "raw_data": [
-    93.5,
-    25.5,
-    81.7,
-    79.7,
-    83.6
+    8.6,
+    3.5,
+    5.8,
+    9.3,
+    10.5,
+    10.1,
+    8.9,
+    7.7,
+    7.6
   ],
-  "parameter_name": "average percent who identify as White per state in the U.S.",
-  "true_value": 78.0686,
+  "parameter_name": "average percent under age 65 without health insurance per state in the U.S.",
+  "true_value": 9.9588,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-11-08"
+  "contained": false,
+  "day": "2026-11-09"
 }
