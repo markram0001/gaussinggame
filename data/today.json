@@ -1,30 +1,26 @@
 {
   "interval": [
-    6.0532,
-    20.7218
+    49971.9946,
+    1239106.6721
   ],
-  "sample_size": "16 states",
+  "sample_size": "12 states",
   "raw_data": [
-    32.8,
-    37.8,
-    4.4,
-    46,
-    12.9,
-    14.1,
-    9.9,
-    1.3,
-    6.1,
-    2.2,
-    4.1,
-    5.2,
-    8.5,
-    6.7,
-    2.3,
-    19.9
+    209179,
+    426915,
+    88150,
+    996670,
+    3453769,
+    363971,
+    291452,
+    955621,
+    510744,
+    117341,
+    212333,
+    108327
   ],
-  "parameter_name": "average percent who identify as Black per state in the U.S.",
-  "true_value": 11.8725,
+  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
+  "true_value": 519324.1569,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-10"
+  "day": "2026-11-11"
 }
