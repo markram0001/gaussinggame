@@ -1,26 +1,26 @@
 {
   "interval": [
-    49971.9946,
-    1239106.6721
+    189702.6086,
+    611355.3914
   ],
   "sample_size": "12 states",
   "raw_data": [
-    209179,
-    426915,
-    88150,
-    996670,
-    3453769,
-    363971,
-    291452,
-    955621,
-    510744,
-    117341,
-    212333,
-    108327
+    379934,
+    795129,
+    277676,
+    121297,
+    218826,
+    55397,
+    204562,
+    759569,
+    405090,
+    415972,
+    51147,
+    1121749
   ],
-  "parameter_name": "average number of nonemployer establishments per state in the U.S.",
-  "true_value": 519324.1569,
+  "parameter_name": "average number of non‑minority‑owned firms per state in the U.S.",
+  "true_value": 373752.1176,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-11"
+  "day": "2026-11-12"
 }
