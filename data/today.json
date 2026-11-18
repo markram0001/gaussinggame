@@ -1,27 +1,19 @@
 {
   "interval": [
-    2.9714,
-    7.644
+    7.3566,
+    12.4834
   ],
-  "sample_size": "13 states",
+  "sample_size": "5 states",
   "raw_data": [
-    10,
-    2.4,
-    3.2,
-    6.9,
-    3,
-    5.2,
-    5.2,
-    1.8,
-    1.5,
-    4.4,
-    6.5,
-    15.5,
-    3.4
+    10.1,
+    10.4,
+    8.9,
+    12.9,
+    7.3
   ],
-  "parameter_name": "average percent who identify as Asian per state in the U.S.",
-  "true_value": 4.5549,
+  "parameter_name": "average percent of persons below the poverty level per state in the U.S.",
+  "true_value": 12.1706,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-17"
+  "day": "2026-11-18"
 }
