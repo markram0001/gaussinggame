@@ -1,19 +1,22 @@
 {
   "interval": [
-    7.3566,
-    12.4834
+    1963876.9245,
+    7844136.5755
   ],
-  "sample_size": "5 states",
+  "sample_size": "8 states",
   "raw_data": [
-    10.1,
-    10.4,
-    8.9,
-    12.9,
-    7.3
+    6177224,
+    4505836,
+    3011524,
+    11799448,
+    989948,
+    886667,
+    6154913,
+    5706494
   ],
-  "parameter_name": "average percent of persons below the poverty level per state in the U.S.",
-  "true_value": 12.1706,
+  "parameter_name": "average 2014 population per state in the U.S.",
+  "true_value": 6499005.5098,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-18"
+  "day": "2026-11-19"
 }
