@@ -1,22 +1,31 @@
 {
   "interval": [
-    1963876.9245,
-    7844136.5755
+    0.4957,
+    3.7161
   ],
-  "sample_size": "8 states",
+  "sample_size": "17 states",
   "raw_data": [
-    6177224,
-    4505836,
-    3011524,
-    11799448,
-    989948,
-    886667,
-    6154913,
-    5706494
+    0.5,
+    0.3,
+    1.2,
+    1.5,
+    9.4,
+    0.6,
+    11,
+    2.7,
+    0.4,
+    1,
+    0.6,
+    1.7,
+    1.6,
+    0.3,
+    0.5,
+    0.6,
+    1.9
   ],
-  "parameter_name": "average 2014 population per state in the U.S.",
-  "true_value": 6499005.5098,
+  "parameter_name": "average percent who identify as American Indian or Alaska Native per state in the U.S.",
+  "true_value": 2.0059,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-19"
+  "day": "2026-11-20"
 }
