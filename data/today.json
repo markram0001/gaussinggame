@@ -1,32 +1,24 @@
 {
   "interval": [
-    -0.3732,
-    1.9621
+    31575.7162,
+    39136.2838
   ],
-  "sample_size": "18 states",
+  "sample_size": "10 states",
   "raw_data": [
-    0.1,
-    0.1,
-    10.1,
-    0.8,
-    0,
-    0.2,
-    0.1,
-    0.5,
-    0.1,
-    0.1,
-    1.4,
-    0.1,
-    0.1,
-    0,
-    0.1,
-    0.1,
-    0.1,
-    0.3
+    30810,
+    36955,
+    38226,
+    39278,
+    26480,
+    31814,
+    40003,
+    43761,
+    35450,
+    30783
   ],
-  "parameter_name": "average percent who identify as Native Hawaiian or Pacific Islander per state in the U.S.",
-  "true_value": 0.398,
+  "parameter_name": "average per‑capita income in USD per state in the U.S.",
+  "true_value": 33743.0588,
   "source": "state_demographics.csv",
   "contained": true,
-  "day": "2026-11-26"
+  "day": "2026-11-27"
 }
