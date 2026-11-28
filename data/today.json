@@ -1,24 +1,32 @@
 {
   "interval": [
-    31575.7162,
-    39136.2838
+    2.4382,
+    2.5274
   ],
-  "sample_size": "10 states",
+  "sample_size": "18 states",
   "raw_data": [
-    30810,
-    36955,
-    38226,
-    39278,
-    26480,
-    31814,
-    40003,
-    43761,
-    35450,
-    30783
+    2.52,
+    2.51,
+    2.58,
+    2.61,
+    2.52,
+    2.39,
+    2.4,
+    2.53,
+    2.52,
+    2.47,
+    2.55,
+    2.56,
+    2.3,
+    2.46,
+    2.43,
+    2.47,
+    2.57,
+    2.3
   ],
-  "parameter_name": "average per‑capita income in USD per state in the U.S.",
-  "true_value": 33743.0588,
+  "parameter_name": "average persons per household per state in the U.S.",
+  "true_value": 2.5582,
   "source": "state_demographics.csv",
-  "contained": true,
-  "day": "2026-11-27"
+  "contained": false,
+  "day": "2026-11-28"
 }
